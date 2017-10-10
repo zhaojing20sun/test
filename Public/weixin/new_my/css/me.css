@@ -1,0 +1,207 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 130px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background:url('../../new_index/images/shouye1.png') repeat-y;
+	position: relative;
+}
+
+.nav-container .letter{
+	position: absolute;
+	left: 30px;
+	top: 18px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/icon/letter.png) left center no-repeat;
+	background-size: 25px 25px;
+}
+
+.nav-container .setup{
+	position: absolute;
+	right: 30px;
+	top: 18px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/icon/setup.png) left center no-repeat;
+	background-size: 25px 25px;
+}
+
+
+.nav-container h3{
+	display: inline-block;
+	color: white;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+
+/*用户*/
+.user{
+	height: 130px;
+	background: #fbd2e2;
+}
+
+.user .touxiang{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	margin-top: 28px;
+}
+
+.user .media-heading{
+	display: inline-block;
+	margin-top: 44px;
+}
+
+.user .editor{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/icon/editor.png) left 2px no-repeat;
+	background-size: 16px 16px;
+	margin-left: 10px;
+}
+
+.user .personal-sign{
+	margin-top: 6px;
+}
+
+.user .jiantou{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/icon/jiantou.png) left center no-repeat;
+	float: right;
+	margin-top: 60px;
+}
+
+
+
+/*用户动态*/
+.user-dongtai{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.user-dongtai-num{
+	font-size: 18px;
+}
+
+
+/*设置*/
+.options{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.options h4{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	color: #584f60;
+	font-family: "Microsoft YaHei";
+}
+
+.options .jiantou{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/icon/jiantou.png) left center no-repeat;
+	float: right;
+	margin-top: 15px;
+}
+
+.spacing{
+	height: 16px;
+	background: #e5e5e5;
+}
+
+
+/*底部导航*/
+.navbar-bottom-custom{
+	 padding-top: 1%;
+
+	border-top: 1px solid #ccc;
+	height: 60px;
+	background:white;
+	color: #fff;
+}
+
+.navbar-bottom-item{
+	display: inline-block;
+	width: 24%;
+	
+	text-align: center;
+}
+
+.navbar-bottom-item a{
+	color: #666;
+}
+
+.navbar-bottom-item a p{
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

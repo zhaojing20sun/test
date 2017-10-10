@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Index</title>
+
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/home/css/bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/home/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#myScrollSpy" data-offset-top="125">
+
+    <nav class="navbar navbar-default custom-navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <img src="__PUBLIC__/home/images/header-logo.png" class="img-responsive custom-logo">
+          </div>
+          <div class="col-xs-9">
+            <img src="__PUBLIC__/home/images/header-logo2.png" class="img-responsive custom-logo2">
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-3" id="myScrollSpy">
+          <ul class="nav nav-tabs nav-stacked" data-spy="affix">
+          <foreach name="filed" item="v" key="k">
+              <li <?php if($k==0)echo 'class="active"'?>><a href="#section4">{$v.title}</a></li>
+          </foreach>
+           <!--  <li class="active"><a href="#section1">行业一</a></li>
+           <li><a href="#section2">行业二</a></li>
+           <li><a href="#section3">行业三</a></li>
+           <li><a href="#section4">行业四</a></li> -->
+          </ul>
+        </div>
+        <div class="col-xs-9">
+        <foreach name="company" item="v">
+          <div class="media">
+            <span id="section1"></span>
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__APP__/{$v.logo}" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">{$v.title}</h4>
+              <p>{<1v class="intro"></1v>}</p>
+            </div>
+          </div>
+          </foreach>
+          <!-- <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo" >
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+            <span id="section2"></span>
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称section2</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+            <span id="section3"></span>
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称section3</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+            <span id="section4"></span>
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称section4</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="__PUBLIC__/home/images/logo.png" width="64" height="64" alt="logo">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">公司名称</h4>
+              <p>公司简介公司简介公司简介公司简介公司简介</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <section class="container">
+        <p>copyright©2009-2017 交通大学河南企业家协会</p>
+        <p>网站地址：http://www.xxxxxx.com</p>
+      </section>
+    </footer>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="__PUBLIC__/home/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="__PUBLIC__/home/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 88px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+
+.margin-top{
+	margin-top: 16px;
+}
+
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background:url('../../new_index/images/top.png') repeat-y;
+	position: relative;
+}
+.nav-container h3{
+	display: inline-block;
+	color: white;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.nav-container .search{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	right: 24px;
+	bottom: 13px;
+	background: url(../images/icon/search.png) left center no-repeat;
+	text-indent: -9999px;
+}
+
+
+/*轮播图*/
+.carousel-indicators{
+	width: 60px;
+	left: 105%; 
+	bottom: 0;
+}
+
+
+/*底部导航*/
+.navbar-bottom-custom{
+	 padding-top: 1%;
+
+	border-top: 1px solid #ccc;
+	height: 60px;
+	background:white;
+	color: #fff;
+}
+
+.navbar-bottom-item{
+	display: inline-block;
+	width: 24%;
+	
+	text-align: center;
+}
+
+.navbar-bottom-item a{
+	color: #666;
+}
+
+.navbar-bottom-item a p{
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,933 @@
+[ 2017-10-10T11:10:29+08:00 ] ::1 /daikuan/weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:12:14+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2017-10-10T11:12:38+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-10-10T11:21:12+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:21:37+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:21:38+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:21:39+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:22:16+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-10-10T11:22:52+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:23:42+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-10-10T11:24:36+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-10-10T11:24:46+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2017-10-10T11:25:07+08:00 ] ::1 /daikuan/weixin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-10T11:25:11+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-10T11:25:18+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-10-10T11:27:51+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-10-10T11:28:01+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+
+[ 2017-10-10T11:28:25+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-10-10T11:28:26+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2017-10-10T11:28:55+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-10-10T11:29:24+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-10-10T11:29:47+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-10-10T11:30:07+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 48 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 54 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-10-10T11:30:27+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 182 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 183 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: config D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 192 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2017-10-10T11:30:48+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [2] Illegal string offset 'image' D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-10-10T11:31:03+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [2] Illegal string offset 'id' D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [2] Illegal string offset 'image' D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001498s ]
+
+[ 2017-10-10T11:31:08+08:00 ] ::1 /daikuan/weixin/index/[
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+ERR: 非法操作:[
+
+[ 2017-10-10T11:37:15+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-10-10T11:37:37+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined index: image D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-10-10T11:37:57+08:00 ] ::1 /daikuan/weixin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\daikuan\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_info` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `wx_weixin_info` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 27 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 159 行.
+NOTIC: [8] Undefined variable: wxconfig D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 178 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 181 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 184 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 191 行.
+NOTIC: [8] Undefined variable: kx D:\xampp\htdocs\daikuan\Application\Runtime\Cache\Weixin\b8c2a77f3e74822e1b3977299e0101b4.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+

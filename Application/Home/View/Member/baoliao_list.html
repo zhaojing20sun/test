@@ -1,0 +1,108 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+<style type="text/css">
+  .button{background: #42c1f3;
+    border: 1px solid #42c1f3;
+    font-size: 12px;    padding: 6px 10px;color: white}
+</style>
+<!-- <div style="margin-top:9px;">
+<a href="{:U('baoliao_list')}" class="btn btn-primary" style="   margin-top: 10px;">
+            新闻爆料审核</a>
+<a href="{:U('lanmu')}" class="btn btn-primary" style="   margin-top: 10px;">
+            分类管理</a>
+<a href="{:U('article_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            添加文章</a>
+             <span style="color:red">文章页地址 http://<?php echo $_SERVER['SERVER_NAME']?>/weixin/index/new_news/id/<?php echo $_SESSION['uid']?>.html</span>
+            </div> -->
+
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>标题</th><th>类别</th><th>发布时间</th><th>审核</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         
+                                <td style="vertical-align:middle;">{$v.title}</td>
+                           <td style="vertical-align:middle;"><?php echo M('weixin_article_column')->where(array('id'=>$v['type']))->getField('title')?></td>
+                           <td style="vertical-align:middle;">{$v.addtime|date='Y-m-d H:i:s',###}</td>
+                            <td style="vertical-align:middle;" class="{$v.id}">
+                              
+                            <?php switch ($v['status']) {
+                              case '1':
+                                echo "<span style='color:green'>已通过</span>";
+                                break;
+                                case '2':
+                                echo "<span  style='color:orange'>已撤回</span>";
+                                break;
+                                 case '0':
+                                echo "<button class='yes button'>通过</button> | <button  class='no button'>撤回</button>";
+                                break;
+                            } ?></td>
+                            <td style="vertical-align:middle;"> 
+                                 <a href="{:U('baoliao_change',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 查看</a>
+                                  <a href="{:U('baoliao_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+ <script type="text/javascript">
+ $(function(){
+  
+  //alert(name)
+     $(".yes").click(function(){
+        var id=$(this).parent().attr('class')
+        $.ajax({
+          url:"{:U('baoliao_status')}",
+          type:'post',
+          data:"id="+id+"&status=1",
+          success:function(msg){
+             if(msg>0){
+               alert('操作成功')
+              location.reload()
+            }else{
+              alert('操作失败')
+          }
+            }
+        })
+     })
+     $(".no").click(function(){
+      var content = prompt("简述撤回原因", "")
+   
+      if(content=='' || content==null){
+        alert('撤回原因不能为空')
+       
+      }else{
+         
+          var id=$(this).parent().attr('class')
+        $.ajax({
+          url:"{:U('baoliao_status')}",
+          type:'post',
+          data:"id="+id+"&status=2&content="+content,
+          success:function(msg){
+     
+             if(msg>0){
+               alert('操作成功')
+              location.reload()
+            }else{
+              alert('操作失败')
+          }
+            }
+        })
+      }
+      
+     })
+ })
+ </script>
+ <include file="Common:member_footer"/>

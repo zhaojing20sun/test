@@ -1,0 +1,701 @@
+[ 2017-09-09T08:51:34+08:00 ] ::1 /new_lgx/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T08:51:34+08:00 ] ::1 /new_lgx/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-09T08:51:34+08:00 ] ::1 /new_lgx/Admin/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:03:33+08:00 ] ::1 /new_lgx/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:03:33+08:00 ] ::1 /new_lgx/Admin/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-09-09T09:03:37+08:00 ] ::1 /new_lgx/Admin/Index/checkverify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:03:38+08:00 ] ::1 /new_lgx/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 1 LIMIT 1   [ RunTime:0.0930s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-09T09:03:40+08:00 ] ::1 /new_lgx/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0040s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:03:42+08:00 ] ::1 /new_lgx/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0040s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.143008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.143008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-09-09T09:13:30+08:00 ] ::1 /new_lgx/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0040s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 147 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:13:31+08:00 ] ::1 /new_lgx/Admin/Index/column/column_id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0190s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-09T09:13:32+08:00 ] ::1 /new_lgx/Admin/weixin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 134 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 141 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 134 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 141 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 134 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 141 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 134 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 141 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 134 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 141 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 146 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 168 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 172 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 187 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 187 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 193 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 198 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 193 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 198 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 193 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 198 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 193 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 198 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 193 行.
+NOTIC: [8] Undefined variable: open D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 198 行.
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: active D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 203 行.
+NOTIC: [8] Undefined variable: baike D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 262 行.
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 264 行.
+NOTIC: [8] Undefined variable: law D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 266 行.
+NOTIC: [8] Undefined variable: jihua D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 267 行.
+NOTIC: [8] Undefined variable: fenxi D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 268 行.
+NOTIC: [8] Undefined variable: zhidao D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 269 行.
+NOTIC: [8] Undefined variable: hetong D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 270 行.
+NOTIC: [8] Undefined variable: money D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 273 行.
+NOTIC: [8] Undefined variable: project D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 274 行.
+NOTIC: [8] Undefined variable: member D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 275 行.
+NOTIC: [8] Undefined variable: angel D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 276 行.
+NOTIC: [8] Undefined variable: touzi D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 277 行.
+NOTIC: [8] Undefined variable: pinggu D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\76fd484450a0dd02b6c26a519be5a044.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-09T09:13:33+08:00 ] ::1 /new_lgx/Admin/Weixin/column/column_id/81.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 81 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T09:13:33+08:00 ] ::1 /new_lgx/Admin/weixin/article.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 81 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: name D:\xampp\htdocs\new_lgx\Application\Admin\Controller\WeixinController.class.php 第 292 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_catch_news` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_catch_news` LIMIT 1   [ RunTime:0.0730s ]
+SQL: SELECT * FROM `wx_weixin_catch_news` ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_catch_news_column` [ RunTime:0.0020s ]
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+SQL: SELECT `title` FROM `wx_weixin_catch_news_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\2e6a6e0a0793ee151dc0fb7dd2f12d06.php 第 289 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:13:36+08:00 ] ::1 /new_lgx/Admin/Weixin/column/column_id/651.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 651 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-09T09:13:36+08:00 ] ::1 /new_lgx/Admin/weixin/set_bangding.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 646 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 651 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-09T09:13:37+08:00 ] ::1 /new_lgx/Admin/Weixin/column/column_id/653.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0040s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 653 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T09:13:37+08:00 ] ::1 /new_lgx/Admin/weixin/set_zidong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 646 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 653 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixink` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixink` WHERE `userid` = 1 AND `order` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixink` WHERE `userid` = 1 AND `type` = 2 AND `order` <> 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant set_zidong_save - assumed 'set_zidong_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\f83ad813d2658c315233991b27fc09e7.php 第 443 行.
+NOTIC: [8] Use of undefined constant set_zidong_save - assumed 'set_zidong_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\f83ad813d2658c315233991b27fc09e7.php 第 460 行.
+NOTIC: [8] Use of undefined constant set_zidong_save - assumed 'set_zidong_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\f83ad813d2658c315233991b27fc09e7.php 第 468 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-09T09:13:38+08:00 ] ::1 /new_lgx/Admin/Weixin/column/column_id/655.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0020s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 655 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T09:13:38+08:00 ] ::1 /new_lgx/Admin/weixin/set_menu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 646 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 655 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixinmenu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `userid` = 1 AND `pid` = 0 AND `type` = 0 ORDER BY orderid asc  [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `pid` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant add_menu - assumed 'add_menu' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 296 行.
+NOTIC: [8] Use of undefined constant change_menu - assumed 'change_menu' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 323 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixinmenu` WHERE `userid` = 1 AND `pid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `pid` = 35 AND `type` = 0 ORDER BY orderid asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `pid` = 36 AND `type` = 0 ORDER BY orderid asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixinmenu` WHERE `pid` = 37 AND `type` = 0 ORDER BY orderid asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 432 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 524 行.
+NOTIC: [8] Use of undefined constant set_menu_save - assumed 'set_menu_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 703 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 703 行.
+NOTIC: [8] Use of undefined constant style - assumed 'style' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 703 行.
+NOTIC: [8] Use of undefined constant set_menu_save - assumed 'set_menu_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 722 行.
+NOTIC: [8] Use of undefined constant set_menu_save - assumed 'set_menu_save' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\c7518e10d9474faa3606e64bdb13dd1e.php 第 730 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-09T09:13:39+08:00 ] ::1 /new_lgx/Admin/Weixin/column/column_id/656.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0130s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0010s ]
+SQL: SELECT `keyword` FROM `wx_column` WHERE `column_id` = 656 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-09-09T09:13:39+08:00 ] ::1 /new_lgx/Admin/weixin/set_man.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_admin` [ RunTime:0.0030s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 646 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `column_name` FROM `wx_column` WHERE `column_id` = 656 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 0 ORDER BY column_id asc  [ RunTime:0.0000s ]
+SQL: SELECT `group_id` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin` WHERE `userid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `realname` FROM `wx_admin` WHERE `admin_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 1 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 14 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 15 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 16 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 644 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 645 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_column` WHERE `pid` = 646 ORDER BY sort_order DESC  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: project D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\6124f1855538e9d5a640e397d3bd2f3b.php 第 279 行.
+NOTIC: [8] Undefined variable: page D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\6124f1855538e9d5a640e397d3bd2f3b.php 第 296 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

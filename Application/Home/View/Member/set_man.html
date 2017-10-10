@@ -1,0 +1,48 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+<div style="margin-top:9px;">
+
+<a href="{:U('set_man_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            刷新列表  </a>
+            </div>
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>昵称</th><th>openid</th><th>头像</th><th>性别</th><th>所在地区</th><th>关注时间</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="man" item="v">
+                            <tr>
+                         
+                             
+                                <td style="vertical-align:middle;">{$v.nickname}</td>
+                                <td style="vertical-align:middle;">{$v.openid}</td>
+                                <td style="vertical-align:middle;"><img src="{$v.headimgurl}" width="100" /></td>
+                           <td style="vertical-align:middle;"><?php switch ($v['sex']) {
+                             case '0':
+                              echo '未知';
+                               break;
+                               case '1':
+                               echo '男';
+                               break;
+                               case '2':
+                               echo '女';
+                               break;
+                            
+                           }?></td>
+                           <td style="vertical-align:middle;">{$v.country}{$v.province}{$v.city}</td>
+                           <td style="vertical-align:middle;">{$v.subscribe_time|date="Y-m-d,H:i:s",###}</td>
+                          
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

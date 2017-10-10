@@ -1,0 +1,74 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<script type="text/javascript" src="__PUBLIC__/common/js/WebCalendar.js"></script>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+   <form role="form" action="{:U('index_pic_change_save')}" name="adminadd"  method="post" enctype="multipart/form-data">
+                                <div class="form-body" style="margin-left:2%">
+                               <!--  <div class="zc01 red" style="color:red; top:35px;">*注意：此指纹(Token) / AppId / AppSecret 必须与微信公众号后台一致,否则无法通信!</div> -->
+                               <input type="hidden" name="id" value="{$pic.id}"/>
+                                   <div class="form-group" style="margin-top:50px;">
+                                        <label><i style="color:red;"></i> 当前图片：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <img src="__APP__/{$pic.logo}" width="200">
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name='p' value="<?php echo $_SERVER['HTTP_REFERER'] ?>">
+                                     <div class="form-group" style="margin-top:50px;">
+                                        <label><i style="color:red;"></i> 图片：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="logo" id="realname" type="file" class="form-control input-xlarge" />
+                                        </div>
+                                    </div>
+                                          <div class="form-group" style="margin-top:20px;">
+                                        <label><i style="color:red;"></i> 分类：</label>
+                                        <select id="type">
+                                         <option value="1" <?php if($pic['type']>0 && $pic['type']<7) echo 'selected'?>>首页</option>
+                                         
+                                          <option value="7" <?php if($pic['type']==7) echo 'selected'?>>新闻页</option>
+                                          <option value="8" <?php if($pic['type']==8) echo 'selected'?>>发现页</option>
+                                          <option value="9" <?php if($pic['type']==9) echo 'selected'?>>动态页</option>
+
+                                          
+
+                                        </select>
+                                          <select id="type1" name="type" <?php if($pic['type']>6) echo  'style="display:none"'?>>
+                                           <option value="1" <?php if($pic['type']==1) echo 'selected'?>>首页-顶部</option>
+                                          <option value="2" <?php if($pic['type']==2) echo 'selected'?>>首页-要闻上部</option>
+                                          <option value="3" <?php if($pic['type']==3) echo 'selected'?>>首页-好友上部</option>
+                                          <option value="4" <?php if($pic['type']==4) echo 'selected'?>>首页-广播上部</option>
+                                          <option value="5" <?php if($pic['type']==5) echo 'selected'?>>首页-电视上部</option>
+                                          <option value="6" <?php if($pic['type']==6) echo 'selected'?>>首页-活动上部</option></select>
+                                    </div>
+                                        <div class="form-group" style="margin-top:12px;">
+                                         <label><i style="color:red;"></i> 链接地址：</label><span style="color:red;margin-left:5%">(请写全url，带上http://,如无则仅为图片)</span>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="url" id="realname" type="text" class="form-control input-xlarge" value="{$pic.url}"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-actions" style="padding-left:5%;padding-top:2%;">
+                                  <input type="submit" class="btn" value="保  存">    
+                                    
+                                </div>
+                            </form>
+</div></div>
+ <!-- div content end --></div>
+  <script type="text/javascript">
+  $(function(){
+     $("#type").change(function(){
+         var val=$(this).val()
+         if(val==1){
+          $("#type1").show()
+          $("#type1").attr('name','type')
+          $("#type").attr('name','')
+         }else{
+          $("#type1").hide()
+          $("#type1").attr('name','')
+          $("#type").attr('name','type')
+         }
+
+     })
+  })
+ </script>
+ <include file="Common:member_footer"/>

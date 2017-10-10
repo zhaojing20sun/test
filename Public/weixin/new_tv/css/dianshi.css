@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+ul,ol{
+	list-style: none;
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background: url(../images/nav_bg.png) -50px center no-repeat;
+	position: relative;
+}
+
+.nav-container h3{
+	display: inline-block;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.nav-container .back{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 20px;
+	bottom: 13px;
+	background: url(../images/icon/back.png) left center no-repeat;
+	text-indent: -9999px;
+}
+
+.nav-container ul{
+	display: inline-block;
+	width: 252px;
+	height: 50px;
+}
+
+.nav-container ul li{
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	opacity: 0.4;
+}
+
+.nav-container ul li.selected{
+	opacity: 1;
+	border-bottom: 4px solid #fff;
+}
+
+.nav-container .search{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	right: 24px;
+	bottom: 13px;
+	background: url(../images/icon/search.png) left center no-repeat;
+	text-indent: -9999px;
+}
+
+
+/*电台名称*/
+.items{
+	height: 65px;
+	background: #f7d4ce;
+	margin-top: 4px;
+}
+
+.items img{
+	margin-top: 8px;
+	border-radius: 50%;
+}
+
+.items .media-body h4{
+	margin-top: 8px;
+}
+
+
+
+/*选项卡效果*/
+.tab-container{
+	position: relative;
+}
+
+
+
+#box .tab-content .tab-content-item{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<div id="right">
+        <ul class="tab">
+                                        <li class="normal">
+                                                </li><li class="active">系统消息</li>
+                                </ul>        <div class="wrap">
+           
+            <div class="public table">
+                <table class="table_head_line">
+                    
+                    <tbody><tr class="line_bold">
+                                            <th class="width1"><input type="checkbox" id="all" class="checkall"></th>
+                        <th class="align1" colspan="4">
+                            <label for="all"><span class="all">全选</span></label>
+                            <a href="javascript:;" class="delete" uri="index.php?app=message&amp;act=drop" name="msg_id" presubmit="confirm('您确定要删除它吗？')" ectype="batchbutton">删除</a>
+                        </th>
+                                        </tr>
+
+                    <tr class="line tr_color">
+                        <th></th>
+                        <th class="align1">用户名</th>
+                        <th>内容</th>
+                        <th>最后更新</th>
+                        <th class="width4">操作</th>
+                    </tr>
+                                                            <tr class="line_bold">
+                        <td class="align2"><input type="checkbox" class="checkitem" value="1"></td>
+                        <td class="width13"><img class="makesmall" style="max-height: 48px;max-width: 48px;" src="/myshop/Public/home/images/default_user_portrait.gif?2072"><span class="user_name">系统消息</span></td>
+                        <td class="link2">恭喜，您的店铺已开通，赶快来用户中心发布商品吧。</td>
+                        <td class="align2 color1 width8">2016-12-27 10:57</td>
+                        <td class="width8">
+                            <a href="index.php?app=message&amp;act=view&amp;msg_id=1" class="desc">查看详情</a>
+                            <a href="javascript:drop_confirm('您确定要删除它吗？', 'index.php?app=message&amp;act=drop&amp;msg_id=1');" class="delete">删除</a>                        </td>
+                    </tr>
+                                                                                <tr>
+                        <th class="width1"><input id="all2" type="checkbox" class="checkall"></th>
+                        <th class="align1"><label for="all2"><span class="all">全选</span></label><a href="javascript:void(0);" class="delete" uri="index.php?app=message&amp;act=drop" name="msg_id" presubmit="confirm('您确定要删除它吗？')" ectype="batchbutton">删除</a></th>
+                        <td colspan="3">
+                           <p class="position2">
+                                                            </p>
+                         </td>
+                    </tr>
+                                                        </tbody></table>
+            </div>
+            <div class="wrap_bottom"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="adorn_right1"></div>
+        <div class="adorn_right2"></div>
+        <div class="adorn_right3"></div>
+        <div class="adorn_right4"></div>
+    </div>
+    
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

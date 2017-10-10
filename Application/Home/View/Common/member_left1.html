@@ -1,0 +1,242 @@
+<style type="text/css">
+  #left dd .nouid {
+    color: #919191;
+}
+</style>
+<div id="left">
+        <h2>
+            <strong title="用户中心">用户中心</strong>
+      
+        </h2>
+                    <dl>
+            <dt class="menu">我的账户</dt>
+              <div <if condition="$open eq '1'">style="display:block"<else />style="display:none"</if>>
+                    <dd>
+                            <a href="{:U('index')}" <if condition="$active eq 'index'">class="active"<else /> class="normal"</if>><span class="ico1">账户概览</span></a>
+                        </dd>
+                    <dd>
+                            <a href="{:U('profile')}" <if condition="$active eq 'profile'">class="active"<else /> class="normal"</if>><span class="ico2">个人资料</span></a>
+                        </dd>
+                    <dd>
+                            <a href="{:U('newpm')}" <if condition="$active eq 'newpm'">class="active"<else /> class="normal"</if>><span class="ico3">系统消息</span></a>
+                        </dd>
+                    
+                  <!--   <dd>
+                          <a href="{:U('alipay')}" <if condition="$active eq 'alipay'">class="active"<else /> class="normal"</if>><span class="ico5">充值管理</span></a>
+                      </dd> -->
+                  </div>
+                  
+                </dl>
+             <dl>
+                       
+               <dt class="menu">微信管理</dt>
+                   <div <if condition="$open eq '3'">style="display:block"<else />style="display:none"</if>>
+                       <dd>
+                            <a href="{:U('set_bangding')}" <if condition="$active eq 'set_bangding'">class="active"<else /> class="normal"</if>><span class="ico100">绑定微信公众号</span></a>
+                        </dd>
+                    <dd>
+                            <a href="{:U('set_reply')}"
+                          <?php if($active=='set_reply'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>
+                             ><span class="ico101">关注自动回复</span></a>
+                        </dd>
+                        <dd>
+                            <a href="{:U('set_zidong')}" <?php if($active=='set_zidong'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico103">消息自动回复</span></a>
+                        </dd>
+                    <dd>
+                            <a href="{:U('set_guanjian')}"  <?php if($active=='set_guanjian'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico102">关键词自动回复</span></a>
+                        </dd>
+                    
+                    <dd>
+                            <a href="{:U('set_menu')}" <?php if($active=='set_menu'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico104">自定义菜单</span></a>
+                        </dd>
+                        <dd>
+                            <a href="{:U('set_man')}" <?php if($active=='set_man'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico104">关注会员列表</span></a>
+                        </dd>
+                        </div>
+                </dl>
+                <dl>
+                  <dt class="menu">用户管理</dt>
+                    <div style="display:none">
+                       <dd>
+                            <a href="{:U('binding_weixin')}"  <?php if($active=='binding_weixin'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico100">用户组管理</span></a>
+                        </dd>
+                    <dd>
+                            <a href="{:U('follow_reply')}"  <?php if($active=='follow_reply'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">关注的用户</span></a>
+                        </dd>
+                   
+                        </div>
+                </dl>
+                  <dl>
+                  <dt class="menu">信息管理</dt>
+                    <div  <if condition="$open eq '5'">style="display:block"<else />style="display:none"</if>>
+                     <dd>
+                            <a href="{:U('word')}"  <?php if($active=='word'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">敏感词管理</span></a>
+                        </dd> 
+                      <dd>
+                            <a href="{:U('index_pic')}" <?php if($active=='index_pic'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">轮播图管理</span></a>
+                        </dd>  
+                           <dd>
+                            <a href="{:U('dynamic_nav')}" <?php if($active=='dynamic_nav'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">动态页导航</span></a>
+                        </dd>
+                        <dd>
+                            <a href="{:U('nav')}" <?php if($active=='nav'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">底部导航</span></a>
+                        </dd> 
+                    <dd>
+                            <a href="{:U('article')}" <?php if($active=='article'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">新闻管理</span></a>
+                        </dd>
+                          <dd>
+                            <a href="{:U('dongtai')}" <?php if($active=='dongtai'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">动态管理</span></a>
+                        </dd>
+                           <dd>
+                            <a href="{:U('broadcast')}" <?php if($active=='broadcast'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">广播管理</span></a>
+                        </dd>
+                          <dd>
+                            <a href="{:U('video')}"  <?php if($active=='video'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">视频管理</span></a>
+                        </dd>
+                         <dd>
+                            <a href="{:U('show')}" <?php if($active=='show'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">电视管理</span></a>
+                        </dd>
+                         <dd>
+                            <a href="{:U('easy')}" <?php if($active=='easy'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">更多服务</span></a>
+                        </dd>
+                          <dd>
+                            <a href="{:U('friend')}" <?php if($active=='friend'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">交友管理</span></a>
+                        </dd>
+                          <dd>
+                            <a href="{:U('activity')}" <?php if($active=='activity'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">活动管理</span></a>
+                        </dd>
+                         <dd>
+                            <a href="{:U('forum')}" <?php if($active=='forum'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">论坛管理</span></a>
+                        </dd>
+                         <dd>
+                            <a href="{:U('affiche')}" <?php if($active=='affiche'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">发布公告</span></a>
+                        </dd>
+                         <dd>
+                            <a href="{:U('xieyi')}" <?php if($active=='xieyi'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">用户协议</span></a>
+                        </dd>
+                        <dd>
+                            <a href="{:U('us')}"  <?php if($active=='us'){ echo 'class="active"';}elseif(!$_SESSION['uid']){ echo 'class="nouid"';}else{ echo 'class="normal"';} ?>><span class="ico101">关于我们</span></a>
+                        </dd>
+                   
+                   
+                        </div>
+                </dl>
+               <!--   <dl>
+                <dt class="menu">权限管理</dt>
+                 <div style="display:none;">
+                     <dd>
+                          <a href="{:U('man_control')}" <if condition="$active eq 'binding_weixin'">class="active"<else /> class="normal"</if>><span class="ico100">用户管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('control')}" <if condition="$active eq 'follow_reply'">class="active"<else /> class="normal"</if>><span class="ico101">权限管理</span></a>
+                      </dd>
+                      </div>
+                               </dl>
+               <dl>
+                <dt class="menu">财务管理</dt>
+                  <div style="display:none;">
+                     <dd>
+                          <a href="{:U('binding_weixin')}" <if condition="$active eq 'binding_weixin'">class="active"<else /> class="normal"</if>><span class="ico100">收入管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('follow_reply')}" <if condition="$active eq 'follow_reply'">class="active"<else /> class="normal"</if>><span class="ico101">支出管理</span></a>
+                      </dd>
+                      </div>
+                               </dl>
+                   <dl>
+                           <dt class="menu">商城管理</dt>
+                             <div <if condition="$open eq '2'">style="display:block"<else />style="display:none"</if>>
+                 <dd>
+                          <a href="{:U('product_pic')}" <if condition="$active eq 'product_pic'">class="active"<else /> class="normal"</if>><span class="ico11">轮播图管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('my_store')}" <if condition="$active eq 'my_store'">class="active"<else /> class="normal"</if>><span class="ico11">店铺设置</span></a>
+                      </dd>
+                        <dd>
+                          <a href="{:U('product_lanmu')}" <if condition="$active eq 'product_lanmu'">class="active"<else /> class="normal"</if>><span class="ico8">分类管理</span></a>
+                      </dd>
+                 
+                  <dd>
+                          <a href="{:U('my_goods')}" <if condition="$active eq 'my_goods'">class="active"<else /> class="normal"</if>><span class="ico8">商品管理</span></a>
+                      </dd>
+                  
+                  <dd>
+                          <a href="{:U('alipay')}index.php?app=my_qa" <if condition="$active eq 'alipay'">class="active"<else /> class="normal"</if>><span class="ico18">咨询管理</span></a>
+                      </dd>
+                
+                  <dd>
+                          <a href="{:U('seller_order')}" <if condition="$active eq 'seller_order'">class="active"<else /> class="normal"</if>><span class="ico10">订单管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('my_theme')}" <if condition="$active eq 'my_theme'">class="active"<else /> class="normal"</if>><span class="ico12">模版设置</span></a>
+                      </dd>
+                   
+                    <dd>
+                          <a href="{:U('my_shipping')}" <if condition="$active eq 'my_shipping'">class="active"<else /> class="normal"</if>><span class="ico14">配送方式管理</span></a>
+                      </dd>
+                   
+                  <dd>
+                          <a href="{:U('coupon')}" <if condition="$active eq 'coupon'">class="active"<else /> class="normal"</if>><span class="ico19">优惠券管理</span></a>
+                      </dd>
+                      </div>
+                               </dl>
+                          <dl>
+               <dl>
+                <dt class="menu">在线早教</dt>
+                   <div  <if condition="$open eq '8'">style="display:block"<else />style="display:none"</if>>
+                   <dd>
+                          <a href="{:U('education_pic')}" <if condition="$active eq 'education_pic'">class="active"<else /> class="normal"</if>><span class="ico100">轮播图管理</span></a>
+                      </dd>
+                     <dd>
+                          <a href="{:U('education_column')}" <if condition="$active eq 'education_column'">class="active"<else /> class="normal"</if>><span class="ico100">分类管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('education')}" <if condition="$active eq 'education'">class="active"<else /> class="normal"</if>><span class="ico101">教育项目</span></a>
+                      </dd>
+                      </div>
+                               </dl>
+                               <dl>
+                <dt class="menu">求医问药</dt>
+                 <div  <if condition="$open eq '9'">style="display:block"<else />style="display:none"</if>>
+                  <dd>
+                          <a href="{:U('medicine_pic')}" <if condition="$active eq 'medicine_pic'">class="active"<else /> class="normal"</if>><span class="ico100">轮播图管理</span></a>
+                      </dd>
+                     <dd>
+                          <a href="{:U('medicine_column')}" <if condition="$active eq 'medicine_column'">class="active"<else /> class="normal"</if>><span class="ico100">分类管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('medicine')}" <if condition="$active eq 'medicine'">class="active"<else /> class="normal"</if>><span class="ico101">医疗项目</span></a>
+                      </dd>
+                      </div>
+                               </dl>
+                 <dl>
+                <dt class="menu">金融理财</dt>
+                 <div  <if condition="$open eq '10'">style="display:block"<else />style="display:none"</if>>
+                     <dd>
+                          <a href="{:U('invest_pic')}" <if condition="$active eq 'invest_pic'">class="active"<else /> class="normal"</if>><span class="ico100">轮播图管理</span></a>
+                      </dd>
+                     <dd>
+                          <a href="{:U('invest_column')}" <if condition="$active eq 'invest_column'">class="active"<else /> class="normal"</if>><span class="ico100">分类管理</span></a>
+                      </dd>
+                  <dd>
+                          <a href="{:U('invest')}" <if condition="$active eq 'invest'">class="active"<else /> class="normal"</if>><span class="ico101">理财项目</span></a>
+                      </dd>
+                      </div>
+                               </dl> -->
+                
+                <div class="adorn_bottom"></div>
+    </div>
+    <script type="text/javascript">
+$(document).ready(function(){
+  $("dl").click(function(){
+      $(this).find("div").toggle();
+  });
+  $(".nouid").click(function(){
+     alert('请先绑定微信公众号')
+
+     location.href="{:U('set_bangding')}"
+    return false
+    
+  })
+});
+</script>

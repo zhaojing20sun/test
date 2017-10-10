@@ -1,0 +1,172 @@
+
+<html manifest="/index.appcache"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>天气预报代码调用</title>
+    
+    <style type="text/css">
+        body { margin:auto 0px;font-size:12px;}
+        img{ width:48px; height:48px}
+        .boild{ line-height: 29px;font-size: 13px;}
+        .cc30{ color:#fff; font-family:Arial;font-size: 13px;}
+        .c390{ color:#fff; font-family:Arial;font-size: 13px;}
+        tr{cursor:pointer}
+        img{ border:solid 0px black}
+        a{text-decoration:none; color:white; font-family:Verdana, Arial, Helvetica, sans-serif,"\5b8b\4f53"; cursor:pointer; }
+        .centerimg{ background-image:url(http://static.xixik.com.cn/images/weather.png); width:16px; height:16px;position:relative; left:50%; margin-left:-12px; float:left;}
+        #img{ background-image:url(http://static.xixik.com.cn/images/weather.png); width:16px; height:16px; float:left}
+        .img{float:left}
+        .centertwo{ width:40px; height:16px;position:relative; left:50%; margin-left:-20px; float:left;padding-top:1px;}
+
+        #mobile1{width:100%; text-align:center;height:18px; line-height:18px;}
+
+        #mobile6{padding-left:2%;width:120px;height:50px;}
+        .pngtqico{position: relative;top:-2px;}
+     
+    </style>
+	<!--[if IE 6]>
+    <script type="text/javascript" mce_src="DD_belatedPNG.js" src="http://img.cxmx.com.cn/static/js/DD_belatedPNG.js"></script>
+    <script type="text/javascript">DD_belatedPNG.fix(".pngtqico");</script>
+    <![endif]-->
+	<script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript">
+        var color = bgcolor = bdcolor = site = icon = "";
+        var num = 0;
+        $(document).ready(function(){
+
+            if (typeof(bgcolor) != 'undefined' && bgcolor != '') {
+                $("#mobile6").css('background-color', bgcolor);
+            }
+            if (typeof(bdcolor) != 'undefined' && bdcolor != '') {
+                $("#mobile6").css('border', '1px solid ' + bdcolor);
+            }
+            if (typeof(color) != 'undefined' && color != '') {
+                $("#mobile6 a").css('color', color);
+            }
+			if (typeof(site) != 'undefined' && site != '') {
+                $("#mobile6").css('font-size', site+'px');
+            }
+        });
+    </script>
+</head>
+<body style="background-color:transparent">
+<table id="mobile1">
+    <a target="_blank"  href="http://tianqi.com">
+        <div id="mobile6">
+        <!--  <img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/taiyang.png' style='border:0;width:20px;height:20px;padding-top:3px;margin-left:-3px;'/> -->
+            <span class="boild">{$json.city}</span>
+           <?php switch ($json['weather']) {
+               case '晴':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/taiyang.png' style='border:0;width:20px;height:20px;padding-top:3px;margin-left:-3px;'/>";
+                   break;
+                case '阴':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dayintian.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '多云':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/duoyun1.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '阵雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '雷阵雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/duoyunshandianyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '雷阵雨伴有冰雹':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/duoyunshandianyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '雨夹雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/yujiaxue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '小雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '中雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '大雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dayuyujing.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '大暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dayuyujing.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '特大暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dayuyujing.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '阵雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xaixue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '小雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xaixue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '中雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xaixue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '大雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xaixue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '暴雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xuehuayujing.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '雾':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/wu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '冻雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dongyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '沙尘暴':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/shachenbao.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '小雨-中雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoyuzhuanzhongyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '中雨-大雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/zhongyuzhuandayu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '大雨-暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/baoyuzhuandabaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '暴雨-大暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dabaoyuzhuantedabaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                     case '大暴雨-特大暴雨':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/dabaoyuzhuantedabaoyu.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '小雪-中雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/xiaoxuezhuanzhongxue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '中雪-大雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/zhongxuezhuandaxue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '大雪-暴雪':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/daxuezhuanbaoxue.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '浮尘':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/fuchen.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '扬沙':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/yangsha.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '强沙尘暴':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/shachenbao.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+                    case '霾':
+                echo "<img class='pngtqico' align='absmiddle' src='__PUBLIC__/weixin/new_index/images/weather/mai.png' style='border:0;width:20px;height:20px;padding-top:3px;'/>";
+                   break;
+           }
+                ?> 
+           
+           <br />
+            <span class="cc30">{$json.temphigh}℃</span>/<span class="c390">{$json.templow}℃</span> 
+           
+        </div>
+          
+    </a>
+</table>
+<div style="display:none"><script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F86f43783acc56b0c8abb5bb039edc763' type='text/javascript'%3E%3C/script%3E"));
+    </script></div>
+</body>
+</html><script type="text/javascript">num=0;temp=0;</script>

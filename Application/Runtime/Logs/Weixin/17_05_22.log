@@ -1,0 +1,1379 @@
+[ 2017-05-22T08:30:04+08:00 ] ::1 /new_lgx/weixin/index/new_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T08:30:26+08:00 ] ::1 /new_lgx/Weixin/Index/new_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0150s ]
+SQL: SELECT `order` FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T08:30:30+08:00 ] ::1 /new_lgx/Weixin/Index/today_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T08:30:35+08:00 ] ::1 /new_lgx/Weixin/Index/today_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' AND `name` = '廿七' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wx_weixin_sign` (`day`,`userid`,`jointime`,`name`,`order`) VALUES ('2017-5-22','2','1495413034','廿七','3') [ RunTime:0.1710s ]
+
+[ 2017-05-22T08:30:44+08:00 ] ::1 /new_lgx/Weixin/Index/new_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0020s ]
+SQL: SELECT `order` FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T08:35:37+08:00 ] ::1 /new_lgx/Weixin/Index/new_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0030s ]
+SQL: SELECT `order` FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T08:35:39+08:00 ] ::1 /new_lgx/Weixin/Index/today_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T08:35:41+08:00 ] ::1 /new_lgx/Weixin/Index/today_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' AND `name` = '廿七' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wx_weixin_sign` (`day`,`userid`,`jointime`,`name`,`order`) VALUES ('2017-5-22','2','1495413341','廿七','1') [ RunTime:0.0760s ]
+
+[ 2017-05-22T08:35:44+08:00 ] ::1 /new_lgx/Weixin/Index/new_sign.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_sign` [ RunTime:0.0140s ]
+SQL: SELECT `order` FROM `wx_weixin_sign` WHERE `userid` = 2 AND `day` = '2017-5-22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_sign` WHERE `userid` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T08:51:49+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T09:16:08+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 27 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 28 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 29 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 30 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 32 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 40 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 117 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 229 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 331 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 433 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T09:16:10+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/focus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'focus' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:12+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/view.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'view' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:13+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/fitness.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'fitness' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:14+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/food.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'food' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:17+08:00 ] ::1 /new_lgx/Weixin/Index/new_addfriend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:22+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/hot.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'hot' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T09:16:24+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/focus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'focus' ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T09:16:25+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/view.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'view' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T09:16:26+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/fitness.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'fitness' ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-05-22T09:16:27+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/food.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` = 'food' ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T09:16:28+08:00 ] ::1 /new_lgx/Weixin/Index/new_addfriend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T10:20:33+08:00 ] ::1 /new_lgx/Weixin/Index/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: order D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ede7eeeca3df18f63cc34b03c4f484e4.php 第 55 行.
+NOTIC: [8] Undefined index: order D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ede7eeeca3df18f63cc34b03c4f484e4.php 第 57 行.
+NOTIC: [8] Undefined index: order D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ede7eeeca3df18f63cc34b03c4f484e4.php 第 59 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T10:20:41+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-22T10:20:43+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T10:20:45+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:20:45+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-05-22T10:20:46+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T10:20:46+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:20:47+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-05-22T10:20:47+08:00 ] ::1 /new_lgx/Weixin/Index/new_news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-05-22T10:21:36+08:00 ] ::1 /new_lgx/Weixin/Index/broadcast_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:broadcast_list
+
+[ 2017-05-22T10:21:45+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:21:47+08:00 ] ::1 /new_lgx/Weixin/Index/new_guangbo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_broadcast_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_broadcast_column` WHERE `userid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_broadcast` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_broadcast` WHERE `userid` = 2 AND `pid` = 1 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dd5e8733ed95c9f42735ffaa5cf1a527.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dd5e8733ed95c9f42735ffaa5cf1a527.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dd5e8733ed95c9f42735ffaa5cf1a527.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dd5e8733ed95c9f42735ffaa5cf1a527.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dd5e8733ed95c9f42735ffaa5cf1a527.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:22:05+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:22:06+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:22:08+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:22:15+08:00 ] ::1 /new_lgx/Weixin/Index/new_tv.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_show_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_show` WHERE `userid` = 2 AND `pid` = 2 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T10:22:17+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-05-22T10:22:47+08:00 ] ::1 /new_lgx/Weixin/Index/new_tv.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_show_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_show` WHERE `userid` = 2 AND `pid` = 2 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T10:24:07+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-05-22T10:24:08+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-05-22T11:18:12+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:30:57+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 216 行.
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 216 行.
+
+[ 2017-05-22T11:31:11+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 79 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T11:31:13+08:00 ] ::1 /new_lgx/Weixin/Index/new_mydata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: country D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+NOTIC: [8] Undefined index: province D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:31:51+08:00 ] ::1 /new_lgx/Weixin/Index/new_mydata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: country D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+NOTIC: [8] Undefined index: province D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:32:09+08:00 ] ::1 /new_lgx/Weixin/Index/new_mydata.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 97 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: country D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+NOTIC: [8] Undefined index: province D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\baaf4c613b2794d6b3c1f8905b611787.php 第 66 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T11:38:10+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `mid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 79 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:38:13+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 27 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 28 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 29 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 30 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 32 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 40 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 117 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 229 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 331 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 433 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:38:14+08:00 ] ::1 /new_lgx/Weixin/Index/new_write.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\25abda1492117f9cac025ab4e9f18220.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:38:26+08:00 ] ::1 /new_lgx/Weixin/Index/new_write.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\25abda1492117f9cac025ab4e9f18220.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T11:38:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_write.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\25abda1492117f9cac025ab4e9f18220.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:42:54+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-05-22T11:42:56+08:00 ] ::1 /new_lgx/Weixin/Index/new_tv.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_show_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_show` WHERE `userid` = 2 AND `pid` = 2 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\95f1c94ff0dcf5b42e90b3ab6419a24d.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-05-22T11:42:57+08:00 ] ::1 /new_lgx/Weixin/Index/new_video_detial/id/4/type/show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_show` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_show_column` [ RunTime:0.0030s ]
+SQL: SELECT `title` FROM `wx_weixin_show_column` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

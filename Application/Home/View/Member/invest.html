@@ -1,0 +1,40 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+<div style="margin-top:9px;">
+
+<a href="{:U('invest_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            添加信息  </a>
+              &nbsp;
+            <span style="color:red"> 寻医问药页地址 http://<?php echo $_SERVER['SERVER_NAME']?>/weixin/index/invest/id/<?php echo $_SESSION['uid']?>.html</span>
+            </div>
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>标题</th><th>类别</th><th>url地址</th><th>图片</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         
+                                <td style="vertical-align:middle;">{$v.title}</td>
+                                <td style="vertical-align:middle;"><?php echo M('weixin_invest_column')->where(array('id'=>$v['pid']))->getfield('title') ?></td>
+                           <td style="vertical-align:middle;">{$v.url}</td>
+                           <td style="vertical-align:middle;"><img src="__APP__/{$v.logo}" width="100"></td>
+                            <td style="vertical-align:middle;"> 
+                                 <a href="{:U('invest_change',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 修改</a>
+                                  <a href="{:U('invest_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

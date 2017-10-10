@@ -1,0 +1,1534 @@
+[ 2017-10-01T22:17:09+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002233s ]
+
+[ 2017-10-01T22:19:03+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2017-10-01T22:19:44+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002722s ]
+
+[ 2017-10-01T22:19:55+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2017-10-01T22:24:57+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000429s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000592s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003402s ]
+
+[ 2017-10-01T22:25:12+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000453s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000629s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003234s ]
+
+[ 2017-10-01T22:25:22+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002914s ]
+
+[ 2017-10-01T22:26:15+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0002s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004431s ]
+
+[ 2017-10-01T22:27:04+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2017-10-01T22:28:03+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2017-10-01T22:29:42+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000550s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 194 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 198 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002911s ]
+
+[ 2017-10-01T22:30:22+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 195 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 199 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 203 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 207 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2017-10-01T22:30:52+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 200 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 204 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2017-10-01T22:31:22+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 201 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 205 行.
+NOTIC: [8] Undefined index: level D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2017-10-01T22:32:58+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2017-10-01T22:33:16+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2017-10-01T22:34:42+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003476s ]
+
+[ 2017-10-01T22:35:51+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000531s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000735s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003579s ]
+
+[ 2017-10-01T22:36:36+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2017-10-01T22:36:44+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:37:05+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0000s ]
+
+[ 2017-10-01T22:37:25+08:00 ] ::1 /new_lgx/Admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000596s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-01T22:37:32+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.update({"_id":{"$id":"59d0f61764fa88282c00002b"}},{"$set":{"yiji":"","level1[0]":"","level1[1]":"","level1[2]":"","level1[3]":"","level2[0]":"","level2[1]":"","level2[2]":"","level2[3]":""}}) [ RunTime:0.0019s ]
+
+[ 2017-10-01T22:37:33+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2017-10-01T22:38:32+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000647s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2017-10-01T22:39:17+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.update({"_id":{"$id":"59d0f61764fa88282c00002b"}},{"$set":{"yiji":"0.5","level1[0]":"","level1[1]":"","level1[2]":"","level1[3]":"","level2[0]":"","level2[1]":"","level2[2]":"","level2[3]":""}}) [ RunTime:0.0015s ]
+
+[ 2017-10-01T22:39:18+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+SQL: background.getCollection(column) [ RunTime:0.0007s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003246s ]
+
+[ 2017-10-01T22:40:30+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001739s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003992s ]
+
+[ 2017-10-01T22:40:48+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+
+[ 2017-10-01T22:41:49+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: admin D:\xampp\htdocs\new_lgx\Application\Admin\Controller\StoreController.class.php 第 12 行.
+
+[ 2017-10-01T22:42:06+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-10-01T22:42:40+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.update({"_id":{"$id":"59d0f61764fa88282c00002b"}},{"$set":{"yiji":"0.5","level1[0]":"","level1[1]":"","level1[2]":"","level1[3]":"","level2[0]":"","level2[1]":"","level2[2]":"","level2[3]":""}}) [ RunTime:0.0017s ]
+
+[ 2017-10-01T22:42:41+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2017-10-01T22:45:02+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.find({"_id":{"$id":"59d0f61764fa88282c00002b"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000590s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003150s ]
+
+[ 2017-10-01T22:45:32+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+ERR: Invalid object ID
+
+[ 2017-10-01T22:46:28+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:46:57+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:47:10+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:47:15+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0ff6564fa883c13000029"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000724s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001005s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 197 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 202 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 203 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 208 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 209 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 212 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 213 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 236 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 242 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 251 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 256 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 264 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 269 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 277 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 282 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2017-10-01T22:47:26+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:47:33+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.update({"_id":{"$id":"59d0ff6564fa883c13000029"}},{"$set":{"yiji":"0.5","level1[0]":"","level1[1]":"","level1[2]":"","level1[3]":"","level2[0]":"","level2[1]":"","level2[2]":"","level2[3]":""}}) [ RunTime:0.0021s ]
+
+[ 2017-10-01T22:47:34+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007855s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d0ff6564fa883c13000029"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 196 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 197 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 202 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 203 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 208 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 209 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 212 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 213 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 236 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 242 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 251 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 256 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 264 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 269 行.
+NOTIC: [8] Undefined index: level1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 277 行.
+NOTIC: [8] Undefined index: level2 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Admin\98a4df6071be47e712bd0ec08c829671.php 第 282 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003816s ]
+
+[ 2017-10-01T22:53:28+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0002s ]
+SQL: background.getCollection(column) [ RunTime:0.0001s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0002s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0002s ]
+SQL: background.getCollection(store) [ RunTime:0.0005s ]
+SQL: background.store.find({"_id":{"$id":"59d100e764fa883c1300002a"}}).limit(1) [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003370s ]
+
+[ 2017-10-01T22:53:43+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.update({"_id":{"$id":"59d100e764fa883c1300002a"}},{"$set":{"yiji":"0.5","level1[0]":"","level1[1]":"","level1[2]":"","level1[3]":"","level2[0]":"","level2[1]":"","level2[2]":"","level2[3]":""}}) [ RunTime:0.0020s ]
+
+[ 2017-10-01T22:53:45+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0000s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0000s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d100e764fa883c1300002a"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-10-01T22:54:56+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:55:26+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level1[0] D:\xampp\htdocs\new_lgx\Application\Admin\Controller\StoreController.class.php 第 75 行.
+
+[ 2017-10-01T22:55:57+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: level1[0] D:\xampp\htdocs\new_lgx\Application\Admin\Controller\StoreController.class.php 第 75 行.
+
+[ 2017-10-01T22:56:07+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:56:21+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+
+[ 2017-10-01T22:56:46+08:00 ] ::1 /new_lgx/Admin/Store/index_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.store.update({"_id":{"$id":"59d100e764fa883c1300002a"}},{"$set":{"yiji":"0.5","level1":["0.2","0.3","0.4","0.5"],"level2":["0.1","0.1","0.1","0.1"]}}) [ RunTime:0.0019s ]
+
+[ 2017-10-01T22:56:47+08:00 ] ::1 /new_lgx/Admin/Store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: background.getCollection(admin) [ RunTime:0.0001s ]
+SQL: background.admin.find({"_id":{"$id":"59cf061dcf776ac81100002e"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0001s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"keyword":"store\/index","pid":{"$ne":0}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59d0f34664fa88282c000029"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"_id":{"$id":"59cef2eacf776ad81100002b"}}).limit(1) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":0}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.column.find({"pid":"59cef2eacf776ad81100002b"}).sort({"sort_order":1}) [ RunTime:0.0001s ]
+SQL: background.getCollection(store) [ RunTime:0.0000s ]
+SQL: background.store.find({"_id":{"$id":"59d100e764fa883c1300002a"}}).limit(1) [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+SQL: background.getCollection(column) [ RunTime:0.0000s ]
+SQL: background.column.find({"pid":"59d0f34664fa88282c000029"}).sort({"sort_order":-1}) [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003082s ]
+

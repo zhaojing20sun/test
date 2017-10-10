@@ -1,0 +1,3594 @@
+[ 2017-03-16T08:30:36+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:30:51+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:30:52+08:00 ] ::1 /weidianxt/%E6%88%91%E6%93%A6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:我擦
+
+[ 2017-03-16T08:30:52+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:30:57+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:30:57+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:35:55+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:35:55+08:00 ] ::1 /weidianxt/123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:123
+
+[ 2017-03-16T08:36:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:36:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:04+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:04+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:05+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:05+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:08+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:38:08+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:39:24+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:41:16+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:14+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:45+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:45+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:45+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:45+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:43:46+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:44:01+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:44:01+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:44:01+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:44:01+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:44:01+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:45:27+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:49:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:49:30+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:49:30+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:49:42+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:49:42+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:49:42+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:49:42+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:50:29+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:50:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:50:57+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:50:57+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:51:22+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:51:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:51:33+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:51:33+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:51:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:51:33+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:52:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:52:09+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:52:09+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:52:09+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:52:10+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:52:10+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:52:54+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:52:54+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:52:54+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:52:54+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:53:06+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:53:07+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:06+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:06+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:55:06+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:06+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:07+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:55:25+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:25+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:25+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:25+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:25+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:55:46+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:46+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:55:46+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:55:46+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:56:41+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:57:21+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:57:21+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:57:21+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:57:39+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:57:39+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:57:39+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:57:39+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:57:51+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:57:51+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:57:51+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:57:51+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:58:07+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:58:07+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:58:07+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:58:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:58:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:58:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:58:16+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:58:16+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T08:59:47+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:07:57+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:08:27+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:08:43+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:08:43+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:08:43+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:08+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:08+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:08+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:08+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:11+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:22+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:28+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:28+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:28+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:28+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:30+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:30+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:39+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:39+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:39+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:40+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:40+08:00 ] ::1 /weidianxt/www.wxjiekou.com
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Www.wxjiekou.com
+
+[ 2017-03-16T09:09:41+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:41+08:00 ] ::1 /weidianxt/%E5%93%88%E5%93%88%E5%93%88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:哈哈哈
+
+[ 2017-03-16T09:09:43+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:09:43+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:11:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:11:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:28+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:13:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:14+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:14+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:17+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:17+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:35+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:35+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:42+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:14:42+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:15:50+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:15:50+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:16:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:16:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:16:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:16:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:17:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:17:32+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:17:32+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:17:32+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:29+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:38+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:18:38+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:19+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:20+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:31+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:37+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:37+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:42+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:42+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:51+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:51+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:53+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:53+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:53+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:19:53+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:20:32+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:20:32+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:23:53+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:23:54+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:25:01+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:25:01+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:10+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:10+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:16+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:30+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:37+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:41+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:41+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:47+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:47+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:50+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:26:50+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:08+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:08+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:09+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:10+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:10+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:57+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:59+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:27:59+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:28:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:28:34+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:33+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:44+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:45+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:29:45+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:30:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T09:30:03+08:00 ] ::1 /weidianxt/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: timestamp D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature D:\xampp\htdocs\weidianxt\ThinkPHP\Library\Com\Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:00:00+08:00 ] 115.60.58.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:18:54+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:32:15+08:00 ] 115.60.58.121 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+
+[ 2017-03-16T10:32:47+08:00 ] 115.60.58.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:39:13+08:00 ] 115.60.58.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:39:19+08:00 ] 115.60.58.121 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:39+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:41+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:41+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:41+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:42+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:42+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:42+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:40:42+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:43:28+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-03-16T10:43:29+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-03-16T10:45:32+08:00 ] 140.207.54.73 /home/index.html?signature=d8301aa9812c20617982071ed7f1182416b6303f&timestamp=1489632332&nonce=1844124282&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=4e21bccdc194547da5d4b99ca835ef2db21c22f1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-03-16T10:45:36+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T10:45:37+08:00 ] 115.60.58.121 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Undefined index: timestamp /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: nonce /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 299 行.
+NOTIC: [8] Undefined index: signature /var/www/html/lgx.meixingkong.com/ThinkPHP/Library/Com/Wechat.class.php 第 300 行.
+
+[ 2017-03-16T13:55:22+08:00 ] 140.207.54.74 /home/index.html?signature=c507af375cecf5c482c4472311dc8272fba55c75&timestamp=1489643722&nonce=974939938&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=3e9bb816c380a2d32588e19df84d8e26ef9cbbda
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-03-16T13:55:29+08:00 ] 140.207.54.73 /home/index.html?signature=3a023de2b46738b60a1326a425777145fb711ec6&timestamp=1489643729&nonce=1146908424&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=c5545e4164e6e95dcd01afaacbcafdfced6567cd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-03-16T13:56:38+08:00 ] 140.207.54.73 /home/index.html?signature=d24b596d8e84f31e7d62fe6e29316a336001b4d7&timestamp=1489643798&nonce=1301266541&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=8a408e27aace38689bea205e768e3c1367e1b6a1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-03-16T13:56:50+08:00 ] 140.207.54.73 /home/index.html?signature=587d7d99469f36146cb460ded5a39bd4bafb0197&timestamp=1489643810&nonce=140132163&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=54ad0c5fcfe26a69327d56cdf82632b492d4c563
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-03-16T13:56:54+08:00 ] 140.207.54.73 /home/index.html?signature=67e6788534daa6a72ef9bbd5808aba472bafbb0e&timestamp=1489643814&nonce=803112687&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=c1fbed2eb5020e951cc16cd3e24d354a16010476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-03-16T13:59:02+08:00 ] 140.207.54.73 /home/index.html?signature=b16b63b612d40d0327270310bc8711d619a4682e&timestamp=1489643942&nonce=534161632&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=d2bb69ca0d59bf4754f9faa9f921ce2e4f85610e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-03-16T13:59:20+08:00 ] 140.207.54.74 /home/index.html?signature=6df4c16c8707994064576754198579cda874f5e9&timestamp=1489643960&nonce=139323065&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=bbcf15a499a93ea573fef782a6faa8a072c5d2f3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-03-16T14:00:44+08:00 ] 140.207.54.73 /home/index.html?signature=e6371f0c7a69f19a0c426d2a84fc6f13349eaa92&timestamp=1489644044&nonce=506895147&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=47f1c7bb6212ae66aca76ce3345a3bb271537122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-03-16T14:00:59+08:00 ] 140.207.54.73 /home/index.html?signature=7971caadc5325c35dae7cdf1d1c8258a82415980&timestamp=1489644059&nonce=56176355&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=bfe1faa4130760506fc6da7fecf9c06d2c2caa91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-03-16T14:04:35+08:00 ] 140.207.54.74 /home/index.html?signature=f96f3e775ea2eb1684e417bc2ab56bcd6fad9090&timestamp=1489644275&nonce=921543809&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=12dd2590e4416d6fcd7f0eec8dc6739728bae0db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-03-16T14:04:41+08:00 ] 140.207.54.73 /home/index.html?signature=824f9a88f8c5803103f93e2452b4b383bb442481&timestamp=1489644281&nonce=193698845&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=2ab60e9ed9121a82854707b803954e60e9afc435
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-03-16T14:04:44+08:00 ] 140.207.54.73 /home/index.html?signature=13de483e58d3da90e5b027c324a3aa5a6a80dafc&timestamp=1489644284&nonce=960417245&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=a7beb51c0b0b4ea938842010391a775d4b224745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-03-16T14:05:00+08:00 ] 140.207.54.73 /home/index.html?signature=e74d4e8cf3b88700d994746f82edfcde45f1f53f&timestamp=1489644300&nonce=1959063717&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=f2cb625b1025b1aed8e2f28d30106a53c77d3192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-03-16T14:05:03+08:00 ] 140.207.54.73 /home/index.html?signature=79b5385c5b9a1ee2596e0e3e9cf4f1c86778c773&timestamp=1489644303&nonce=1438418135&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=57fcbe28065fa1e957467b16e5f384ed0f3ed71f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-03-16T14:05:43+08:00 ] 140.207.54.73 /home/index.html?signature=ec42a830c28d6015790670846d70f37854c87463&timestamp=1489644343&nonce=1206937295&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=b03413fb86de13412ac81153caf755bbcfd66672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-03-16T14:05:46+08:00 ] 140.207.54.73 /home/index.html?signature=722f8953e9b4ff964b31b73c5106f89d90d80f77&timestamp=1489644346&nonce=2134332045&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=cfd0b3ae2a502687da90767d0d3ae63cc9cbb4e8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-03-16T14:08:01+08:00 ] 140.207.54.73 /home/index.html?signature=dbe87d8e329cd008175980cf0d372213d15440bf&timestamp=1489644481&nonce=636963531&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=01d6e3ebadfe45c851e2a76eda74d6550fa7f130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-03-16T14:08:35+08:00 ] 140.207.54.73 /home/index.html?signature=9db6f3b64c88047a3da76e6d28d3200cd12c9109&timestamp=1489644515&nonce=1011049156&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=9cb58a7af09210af0139394a736962fdadf88ee7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-03-16T14:08:38+08:00 ] 140.207.54.73 /home/index.html?signature=e167bb1035234b201855d4500459a42d8ba73d2b&timestamp=1489644518&nonce=1615551181&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=2bc1a9964e311a40ae522c4ce0d21afef1e6b6ec
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-03-16T14:09:32+08:00 ] 115.60.58.121 /home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-03-16T14:14:06+08:00 ] 140.207.54.73 /home/index.html?signature=47587a8aef0f7e85955633b513b674d0388de222&timestamp=1489644846&nonce=876642760&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=0ae63e5e3472e97b0c9580f0ce92187b35e47cf1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-03-16T14:14:26+08:00 ] 140.207.54.73 /home/index.html?signature=b61b30eae0e9b5f36b8e43c84d6cd9732833d5f5&timestamp=1489644866&nonce=1708099358&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=16c82102a8e4010e12d730f3193c60690039c082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-03-16T14:14:32+08:00 ] 140.207.54.73 /home/index.html?signature=1ee7468fd5085b48c9714b246f8ae145cb3abe29&timestamp=1489644872&nonce=1748081390&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=347423d53b19387b344f09905dad133e90e2aa98
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-03-16T14:16:05+08:00 ] 115.60.58.121 /home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-03-16T14:16:05+08:00 ] 115.60.58.121 /home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+
+[ 2017-03-16T14:16:41+08:00 ] 140.207.54.73 /home/index.html?signature=313a94d1874915866cb9f713ae48b9dc75c77792&timestamp=1489645000&nonce=1702175544&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=499e79a6fc5c2b08fca66fafaa86c8e4f4bcffcf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-03-16T14:17:07+08:00 ] 115.60.58.121 /home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-03-16T14:17:33+08:00 ] 115.60.58.121 /home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-03-16T14:18:10+08:00 ] 101.226.62.80 /home/index.html?signature=30e80357e79506a03f50703223c798050c64f7e6&echostr=6047862838816292783&timestamp=1489645090&nonce=1475402679
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-03-16T14:18:36+08:00 ] 101.226.62.81 /home/index.html?signature=228bf61bf2ea1967b8c97b1723c3f3e49e503e6a&echostr=3090363966734151229&timestamp=1489645116&nonce=1420391277
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-03-16T14:18:37+08:00 ] 140.207.54.73 /home/index.html?signature=50e11ff313f7cbf8cd6180ecdb310c319f3d2edd&timestamp=1489645117&nonce=1677542713&openid=ooz98wefVJU4BAsvQZyqFeJbzjPI&encrypt_type=aes&msg_signature=bd2b7f9440637d139bf58d6423ad51b640c97a78
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-03-16T14:19:05+08:00 ] 101.226.62.81 /home/index.html?signature=eb185297dbefa1dba9056c6c106af572daaba08e&echostr=7134067360861482719&timestamp=1489645145&nonce=1238109721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-03-16T14:19:24+08:00 ] 101.226.62.81 /home/index.html?signature=e40121e881dda3dacd5578894921c695283e50b6&echostr=3168359357288710126&timestamp=1489645164&nonce=505488210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-03-16T14:21:26+08:00 ] 101.226.62.81 /home/index.html?signature=b38956192fdd3d65873302eb472224189bb0c5fa&echostr=372167713868164855&timestamp=1489645287&nonce=403981508
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+

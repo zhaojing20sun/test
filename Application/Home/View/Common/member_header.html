@@ -1,0 +1,109 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Use IE7 mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7 charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="copyright" content="">
+<link href="__PUBLIC__/home/css/member_style.css" rel="stylesheet" type="text/css">
+<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<script type="text/javascript" src="__PUBLIC__/common/js/jquery-1.8.2.min.js"></script>
+
+<style>
+	.login_panel{
+		width: 100%;
+		margin: 2px;
+	}
+	/*导航样式*/
+	.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-inverse {
+    background-color: #616264;
+    border-color: #616264;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-header {
+    float: left;
+}
+.navbar-brand {
+    float: left;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: -1px;
+    font-size: 15px;
+    font-weight:bold;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+}
+
+.selected{
+   color: #fff;
+    background-color: #222; 
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <div class="auto">
+    	  <div class="logo">
+    	  	<h1>XXX平台欢迎您！<span style="color: crimson;">admin</span></h1>
+    	  </div>
+          <div class="login">
+                         <form class="login_panel">
+                         
+                           <li class="menu_li" style="float:right;"><a href="{:U('index/logout')}">退出</a></li>
+                <li class="menu_li" style="float: right;"><a href="{:U('index')}">管理中心</a></li>
+                <li class="menu_li" style="float:right;">欢迎您！xingyang</li>
+                
+              </form>
+                      </div>
+                      
+    </div>
+
+</div>
+<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container-fluid auto">
+    <!--<div class="navbar-header">
+        <a class="navbar-brand" href="#">菜鸟教程</a>
+    </div>-->
+    <div>
+        <ul class="nav navbar-nav">
+            <li><a href="{:U('index')}" <?php if($open==1)echo 'class="selected"' ?>>我的账户</a></li>
+            <li><a href="{:U('set_bangding')}" <?php if($open==3)echo 'class="selected"' ?>>微信管理</a></li>
+            <li><a href="#">用户管理</a></li>
+            <li><a href="{:U('word')}" <?php if($open==5)echo 'class="selected"' ?>>信息管理</a></li>
+        </ul>
+    </div>
+	</div>
+</nav>
+<div class="content">

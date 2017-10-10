@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top ">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">后台管理</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="{link=admin.index}">系统设置</a></li>
+                <li><a href="{link=admin.user}">用户列表</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="{link=admin.logout}">退出登录</span></a>
+
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid" style="margin:100px auto">
+    <div class="row">
+        <form class="col-md-8 col-md-offset-2 form-horizontal" method="post" action="{link=admin.index}" enctype="multipart/form-data">
+            {if $error}
+            <div class="alert alert-danger" role="alert">{$error}</div>
+            {/if}
+            {if $success}
+            <div class="alert alert-success" role="alert">{$success}</div>
+            {/if}
+
+            <div class="panel panel-default">
+                <div class="panel-heading">基础设置</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">费率设置</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="fee" class="form-control" value="{$config.fee}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">首页设置</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">滚动文字</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="banner_text" class="form-control" value="{$config.banner_text}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">宣传图片</label>
+                        <div class="col-sm-5">
+                            <img src="{$config.banner_image}" alt="" width="100%">
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="file" name="banner_image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">分享设置</div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">分享标题</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="share_title" class="form-control" value="{$config.share_title}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">分享描述</label>
+                        <div class="col-sm-10">
+                            <input type="text" name="share_desc" class="form-control" value="{$config.share_desc}">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">分享图片</label>
+                        <div class="col-sm-5">
+                            <img src="{$config.share_image}" alt="" width="100%">
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="file" name="share_image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">客服设置 (删除客服请将客服账号清空即可)</div>
+                <div class="panel-body">
+                    {loop=$config.kefu}
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">客服{$key}</label>
+                        <div class="col-sm-5">
+                            <input type="text" name="kefu_id[{$key}]" class="form-control" value="{$loop.id}" placeholder="客服账号">
+                            <input type="hidden" name="kefu_image[{$key}]" class="form-control" value="{$loop.image}">
+                            <img src="{$loop.image}" style="width: 100%;margin-top:10px;">
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="file" name="kefu_image_{$key}">
+                        </div>
+                    </div>
+                    {/loop}
+                    <div class="form-group"  style="border-top: 1px #ddd dashed;padding-top:15px;">
+                        <label class="col-sm-2 control-label">新增客服</label>
+                        <div class="col-sm-5">
+                            <input type="text" name="kefu_id_new" class="form-control" value="" placeholder="客服账号">
+                        </div>
+                        <div class="col-sm-5">
+                            <input type="file" name="kefu_image_new">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary text-center">修改设置</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+   <form role="form" action="{:U('product_column_change_save')}" name="adminadd"  method="post" enctype="multipart/form-data">
+                                <div class="form-body" style="margin-left:2%">
+                               <!--  <div class="zc01 red" style="color:red; top:35px;">*注意：此指纹(Token) / AppId / AppSecret 必须与微信公众号后台一致,否则无法通信!</div> -->
+                               <input type="hidden" name="id" value="{$show.id}">
+                                    <div class="form-group">
+                                        <label><i style="color:red;"></i> 分类标题：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="title" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('分类标题不能为空')" oninput="setCustomValidity('')"  value="{$show.title}"/>
+                                        </div>
+                                    </div>
+                                      <div class="form-group logo" >
+                                        <label><i style="color:red;"></i> 当前图标</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <img src="__APP__/{$show.logo}" width="100">
+                                        </div>
+                                    </div>
+                                      <div class="form-group logo"  >
+                                        <label><i style="color:red;" ></i> 修改图标：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="logo" id="realname" type="file" class="form-control input-xlarge"  oninvalid="setCustomValidity('分类标题不能为空')" oninput="setCustomValidity('')"  value="{$weixin.title}"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 所属分类：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                        <select name="pid">
+                                          
+                                          <option value='0'>请选择分类</option>
+                                          <foreach name="column" item="v">
+                                            <option value="{$v.id}" <?php if($show['pid']==$v['id']) echo 'selected'?>>{$v.title}</option>
+                                          </foreach>
+                                        </select>
+                                        </div>
+                                    </div>
+                                  <script type="text/javascript">
+                             $(function(){
+                                 var column=$("select").val()
+                                 if(column>0){
+                                 // alert(column)
+                                    $(".logo").hide()
+                                 }
+                                 $("select").change(function(){
+                                   var column=$(this).val()
+                                   //alert(column)
+                                     if(column>0){
+                                       $(".logo").hide()
+                                     }else{
+                                      $(".logo").show()
+                                     }
+                                 })
+                             })
+                                 </script>
+                                </div>
+                                <div class="form-actions" style="padding-left:5%;margin-top:10px;">
+                                  <input type="submit" class="btn" value="保  存" style="width:60px">    
+                                    
+                                </div>
+                            </form>
+</div></div>
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

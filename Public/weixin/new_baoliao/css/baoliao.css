@@ -1,0 +1,137 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+	
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+textarea{
+	resize: none;
+}
+
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background: url(../images/nav_bg.png) -50px center no-repeat;
+	position: relative;
+}
+
+.nav-container .cancel{
+	position: absolute;
+	left: 30px;
+	top: 14px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/icon/close.png) left center no-repeat;
+	background-size: 25px 25px;
+}
+
+.nav-container .send a{
+	position: absolute;
+	right: 30px;
+	top: 16px;
+	display: inline-block;
+	width: 28px;
+	height: 25px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	font-style: normal;
+}
+
+
+.nav-container h3{
+	display: inline-block;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+
+/*表单*/
+.margin-top-24{
+	margin-top: 24px;
+}
+
+.camera-container{
+	height: 25px;
+	line-height: 25px;
+}
+
+.camera{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(../images/icon/camera.png) left center no-repeat;
+	background-size: 25px 25px;
+	float: left;
+}
+
+.camera-container span{
+	display: inline-block;
+	float: left;
+	color: #a1a1a1;
+	margin-top: 1px;
+	margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

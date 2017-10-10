@@ -1,0 +1,144 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+a{
+    color: #a1a1a1;
+    text-decoration: none;
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background: url(../images/nav_bg.png) -50px center no-repeat;
+	position: relative;
+}
+
+.nav-container .back{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 20px;
+	bottom: 13px;
+	background: url(../images/icon/back.png) left center no-repeat;
+	text-indent: -9999px;
+}
+
+.nav-container h3{
+	display: inline-block;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+
+/*搜索框*/
+.search{
+    margin-top: 16px;
+    text-align: center;
+    text-indent: -15px;
+    background: url(../images/icon/search.png) 58% center no-repeat;
+    background-size: 16px 16px;
+}
+
+.collect{
+    display: block;
+    width: 50px;
+    height: 16px;
+    line-height: 16px;
+    font-style: normal;
+    text-indent: 16px;
+    background: url(../images/icon/star.png) left center no-repeat;
+    background-size: 16px 16px;
+}
+
+
+/*人名*/
+.a{
+    margin-top: 8px;
+}
+
+.media-object{
+    width: 40px;
+    height: 40px;
+}
+
+.media-body p{
+    line-height: 40px;
+}
+
+
+/*字母*/
+.search2{
+    display: block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    text-indent: -60px;
+    background: url(../images/icon/search2.png) center no-repeat;
+    background-size: 16px 16px;
+}
+
+.star{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon/star.png) center no-repeat;
+    background-size: 16px 16px;
+}
+
+.fixed{
+    position: fixed;
+    top: 115px;
+    right: 20px;
+}
+
+
+.maodian{
+    width: 100%;
+   
+    overflow-y:scroll;
+}
+
+
+
+
+
+
+
+

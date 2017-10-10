@@ -1,0 +1,82 @@
+
+			.mui-bar .mui-pull-left .mui-icon {
+				padding-right: 5px;
+				font-size: 28px;
+			}
+			
+			.mui-bar .mui-btn {
+				font-weight: normal;
+				font-size: 17px;
+			}
+			
+			.mui-bar .mui-btn-link {
+				top: 1px;
+			}
+			
+			.mui-content img {
+				width: 100%;
+			}
+			
+			.hm-description {
+				margin: 15px;
+			}
+			
+			.hm-description>li {
+				font-size: 14px;
+				color: #8f8f94;
+			}
+			
+			
+			
+			p {
+				color: #000000;
+				margin-bottom: 2px;
+				padding: 3px;
+			}
+			
+			.mui-btn.mui-icon {
+				font-size: 14px;
+				width: 80%;
+				line-height: 2;
+			}
+			
+			.top width: 95%;
+			margin: 0px auto;
+		}
+		
+		.mui-input-row {
+			position: absolute;
+			margin: 0px auto;
+		}
+		.mui-input-row>.mui-input {
+			width: 70%;
+		}
+		.mui-input-row .mui-btn {
+			line-height: 1.4;
+			float: inherit;
+			width: 56px;
+			padding: 10px 4px;
+			background-color: #FF5053;
+			border: #FF5053;
+		}
+		
+		.mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-object {
+			height: 200px;
+		}
+		.mui-icon,
+		.mui-icon-extra {
+			font-size: 25px;
+			position: relative;
+			color: #fff;
+			padding: 0;
+		}
+		.mui-icon-extra-like{
+			 font-size: 14px;
+			  width: 85%;
+			   line-height: 2.2;
+			   background-color: #ec7063;
+			   border:#ec7063 ;
+		}
+		.mui-popover .mui-table-view {
+			background: url(__PUBLIC__/weixin/education/images/alphabg.png);
+		}

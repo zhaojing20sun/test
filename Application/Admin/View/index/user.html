@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基础设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top ">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">后台管理</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="{link=admin.index}">系统设置</a></li>
+                <li class="active"><a href="{link=admin.user}">用户列表</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="{link=admin.logout}">退出登录</span></a>
+
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid" style="margin:100px auto">
+    <h1 class="text-center">申请用户列表</h1>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover table-condensed total">
+            <tr>
+                <th>ID</th>
+                <th>姓名</th>
+                <th>身份证</th>
+                <th>手机</th>
+                <th>服务密码</th>
+                <th>芝麻分</th>
+                <th>地址</th>
+                <th>借款金额</th>
+                <th>借款月数</th>
+                <th>身份证正面</th>
+                <th>身份证反面</th>
+                <th>手持身份证</th>
+            </tr>
+            {loop}
+            <tr>
+                <td>{$loop.id}</td>
+                <td>{$loop.name}</td>
+                <td>{$loop.idcard}</td>
+                <td>{$loop.mobile}</td>
+                <td>{$loop.password}</td>
+                <td>{$loop.zhima}</td>
+                <td>{$loop.address}</td>
+                <td>{$loop.money}</td>
+                <td>{$loop.month}</td>
+                <td>{if $loop.image_1}<a href="{$loop.image_1}" target="_blank"><img src="{$loop.image_1}" style="width:150px"></a>{/if}</td>
+                <td>{if $loop.image_1}<a href="{$loop.image_2}" target="_blank"><img src="{$loop.image_2}" style="width:150px"></a>{/if}</td>
+                <td>{if $loop.image_1}<a href="{$loop.image_3}" target="_blank"><img src="{$loop.image_3}" style="width:150px"></a>{/if}</td>
+            </tr>
+            {/loop}
+        </table>
+    </div>
+    <nav aria-label="Page navigation ">
+        {block method="pagination" name="pagelist" totalnum=$total page=$page pagesize=$pagesize section=4}
+        {if $pagelist.pagenum>1}
+        <ul class="pagination pull-right">
+            <li><a href="{link=admin.user page=$pagelist.first.num}" class="first number"><<</a></li>
+            <li><a href="{link=admin.user page=$pagelist.prev.num}" class="first number"><</a></li>
+            {loop=$pagelist.num}
+            {if $loop.status}
+            <li class="active"><a href="#">{$loop.num}</a></li>
+            {else}
+            <li><a href="{link=admin.user page=$loop.num}">{$loop.num}</a></li>
+            {/if}
+            {/loop}
+            <li><a href="{link=admin.user page=$pagelist.next.num}" class="first number">></a></li>
+            <li><a href="{link=admin.user page=$pagelist.last.num}" class="first number">>></a></li>
+        </ul>
+        {/if}
+    </nav>
+</div>
+</body>
+</html>

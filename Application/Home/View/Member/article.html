@@ -1,0 +1,114 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<style type="text/css">
+  .green{
+    color: #FFFFFF;
+    background-color: #3F89EC;
+}
+
+.btn1 {
+padding:0;
+    font-size: 13px;
+    height: 27px;
+    width:90px;
+}
+input[name='title']{height:20px;line-height: 20px;}
+</style>
+<div id="right">
+<div style="margin-top:9px;">
+<a href="{:U('baoliao_list')}" class="btn btn-primary" style="   margin-top: 10px;">
+            新闻爆料审核</a>
+<a href="{:U('lanmu')}" class="btn btn-primary" style="   margin-top: 10px;">
+            分类管理</a>
+<a href="{:U('article_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            添加文章</a>
+             <span style="color:red">文章详情页地址 http://<?php echo $_SERVER['SERVER_NAME']?>/weixin/index/new_news_detial/id/<?php echo $_SESSION['uid']?>/nid/文章ID.html</span>
+            </div>
+   <br>
+             <form action="{:U('article')}" method="get"> <input type="text" placeholder="新闻标题搜索" name="title" value="{$Think.get.title}" >    <button type="submit" class="btn1 green  btn">   搜索   </button>  </form>
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>文章ID</th><th style="width:25%">标题</th><th>类别</th><th style="width:15%">标签</th><th>浏览量</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         <td style="vertical-align:middle;">
+                                {$v.id}</td>
+                                <td style="vertical-align:middle;">
+                                <span title="{$v.title}"><?php 
+                                     $re=mb_strlen($v['title'],'utf-8');
+                                     if($re>15){
+                                      echo mb_substr($v['title'], 0,15,'utf-8').'..';
+                                     }else{
+                                      echo $v['title'];
+                                     }
+                                ?></span></td>
+                           <td style="vertical-align:middle;"><?php echo M('weixin_article_column')->where(array('id'=>$v['column']))->getField('title')?></td>
+                           <td style="vertical-align:middle;">
+                             <select  name="label" class="{$v.id}" >
+                               <option value="0">选择标签</option>
+                               <option value="1" <?php if($v['label']==1) echo 'selected' ?> >置顶</option>
+                               <option value="2" <?php if($v['label']==2) echo 'selected' ?>>推荐</option>
+                               <option value="3" <?php if($v['label']==3) echo 'selected' ?>>热门</option>
+                               <option value="4" <?php if($v['label']==4) echo 'selected' ?>>广告</option>
+                             </select>
+                           </td>
+                            <td style="vertical-align:middle;"><input type="text" class="view" id="{$v.id}" value="{$v.view}" style="width:60px;border:none" /></td>
+                            <td style="vertical-align:middle;"> 
+                            <a href="{:U('article_reply',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 查看留言</a>
+                                 <a href="{:U('article_change',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 修改</a>
+                                  <a href="{:U('article_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+<script type="text/javascript">
+  $(function(){
+    $("select").change(function(){
+       var id=$(this).attr('class')
+      var value=$(this).val()
+       
+          $.ajax({
+          url:"{:U('article_label')}",
+          type:'post',
+          data:"id="+id+"&value="+value,
+          success:function(msg){
+              if(msg=='1'){
+                location.reload()
+              }else{
+                alert('操作失败')
+              }
+          }
+        })
+       
+    })
+ $(".view").change(function(){
+   var view=$(this).val()
+   var id=$(this).attr('id')
+       $.ajax({
+          url:"{:U('view_change')}",
+          type:'post',
+          data:"id="+id+"&view="+view,
+          success:function(msg){
+              if(msg=='1'){
+                location.reload()
+              }else{
+                alert('操作失败')
+              }
+          }
+       })
+ })
+  })
+</script>
+ <include file="Common:member_footer"/>

@@ -1,0 +1,2065 @@
+[ 2017-08-23T11:09:49+08:00 ] ::1 /new_lgx/weixin/index/new_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 468 行.
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = null ORDER BY id desc LIMIT 2   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 469 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 1  [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 470 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 471 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 472 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 473 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 474 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 477 行.
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = null ORDER BY addtime desc LIMIT 3   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0110s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 128 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 129 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 130 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 133 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 143 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 145 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 185 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 449 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 504 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 508 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 568 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 572 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 608 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 612 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 703 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 706 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 709 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 712 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:09:50+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:09:50+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T11:10:00+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 642 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:10:02+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` = 0 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-08-23T11:10:03+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 642 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-23T11:10:04+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/4/num/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 671 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `type` = 4 AND `userid` = null ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:10:05+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/5/num/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 671 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `type` = 5 AND `userid` = null ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:10:06+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 642 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:10:08+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` = 0 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:10:09+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 642 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:10:16+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` = 0 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:10:17+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 642 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 675 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T11:11:18+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:20+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 648 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` = 0 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T11:11:23+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 26 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:29+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/wid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_attention` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_attention` WHERE `wid` = 9  [ RunTime:0.0710s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 658 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 661 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `wid` NOT IN ('2','1') GROUP BY wid ORDER BY view desc  [ RunTime:0.0740s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `wid` IN ('2','1') ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:33+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 648 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` = 0 ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/4/num/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `type` = 4 AND `userid` = null ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/4/num/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `type` = 4 AND `userid` = null ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:37+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `wid` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_attention` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_attention` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_attention` WHERE `aid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_my_notice` WHERE `aid` = 9 AND `view` = 0 LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:40+08:00 ] ::1 /new_lgx/Weixin/Index/new_message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_my_notice` WHERE `aid` = 9 AND `type` = 1 ORDER BY addtime desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_my_notice` WHERE `aid` = 9 AND `type` = 2 ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:11:42+08:00 ] ::1 /new_lgx/Weixin/Index/change_view.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0030s ]
+SQL: UPDATE `wx_weixin_my_notice` SET `view`='1' WHERE `id` = 83 [ RunTime:0.0590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:11:43+08:00 ] ::1 /new_lgx/Weixin/Index/change_view.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0030s ]
+SQL: UPDATE `wx_weixin_my_notice` SET `view`='1' WHERE `id` = 83 [ RunTime:0.1200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:11:44+08:00 ] ::1 /new_lgx/Weixin/Index/new_my.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release` WHERE `wid` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_attention` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_attention` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_attention` WHERE `aid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_my_notice` WHERE `aid` = 9 AND `view` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-23T11:12:22+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T11:13:58+08:00 ] ::1 /new_lgx/Weixin/Index/new_faxian.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 714 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 8  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 59 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 64 行.
+NOTIC: [8] Undefined variable: k D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 64 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 78 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 83 行.
+NOTIC: [8] Undefined variable: k D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\aa57035f95134e0a203344a5aa9c159c.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T11:57:36+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-23T11:57:38+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/type/6/num/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `type` = 6 AND `userid` = null ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T11:57:58+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 643 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 645 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 650 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 673 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 678 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 680 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = null AND `type` > 0 ORDER BY view desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 710 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 713 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 716 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 719 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T13:10:14+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.1750s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 471 行.
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = null ORDER BY id desc LIMIT 2   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 472 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 1  [ RunTime:0.0190s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 473 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 2  [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 474 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 475 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 4  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 476 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 5  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 477 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0780s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 480 行.
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = null ORDER BY addtime desc LIMIT 3   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> '9' GROUP BY wid  [ RunTime:0.6350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN ('5','6') GROUP BY wid  [ RunTime:0.0840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 128 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 129 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 130 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 133 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 143 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 145 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 185 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0700s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0270s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 5 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 6 LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 449 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 504 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 508 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 568 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 572 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 608 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 612 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 703 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 706 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 709 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 712 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.251014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.251014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2017-08-23T13:10:14+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 471 行.
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = null ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 472 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 473 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 2  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 474 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 3  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 475 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 476 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 477 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 480 行.
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = null ORDER BY addtime desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> '9' GROUP BY wid  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN ('7','4') GROUP BY wid  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 128 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 129 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 130 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 133 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 143 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 145 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 185 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 4 LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 7 LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 449 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 504 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 508 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 568 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 572 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 608 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 612 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 703 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 706 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 709 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 712 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-23T13:10:19+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T13:10:20+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T13:10:22+08:00 ] ::1 /new_lgx/Weixin/Index/new_huodong.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0420s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 247 行.
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = null ORDER BY id desc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-23T13:10:23+08:00 ] ::1 /new_lgx/Weixin/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-08-23T13:10:23+08:00 ] ::1 /new_lgx/Weixin/js/mui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-08-23T13:10:26+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0500s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 471 行.
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = null ORDER BY id desc LIMIT 2   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 472 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 473 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 474 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 475 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 476 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 5  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 477 行.
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = null AND `page` = 1 AND `type` = 6  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 480 行.
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = null ORDER BY addtime desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> '9' GROUP BY wid  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_release_pic` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN ('5','2') GROUP BY wid  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 128 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 129 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 130 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 133 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 143 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 145 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 185 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 2 LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `sign` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` = 5 LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 449 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 504 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 508 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 568 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 572 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 608 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 612 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 703 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 706 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 709 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 712 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-23T13:10:27+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-23T13:10:28+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+

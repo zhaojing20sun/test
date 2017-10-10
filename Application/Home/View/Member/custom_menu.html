@@ -1,0 +1,119 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<div id="right">    
+          <div class="wrap">
+                <div class="public" style=" padding:30px 0;">
+                <form method="post" enctype="multipart/form-data" id="profile_form">
+                    <div class="information">
+                        <div class="info individual">
+                            <table>
+                           <!-- <tr>
+                            <th></th>
+                           <!-- <td class="remind">
+                            <td class="remind">-->
+                            <!--<a href="http://pan.baidu.com/s/1mgDeAYs" target="_blank" style="right:199px;" class="jcs btn1"><span class="pic3">自定义菜单教程</span></a>
+                               <a href="http://pan.baidu.com/s/1bnd5Jxd" target="_blank" class="jcs btn1"><span class="pic3">在线QQ客服教程</span></a>
+                            </td>
+                            </tr>-->
+                                 <tbody><tr>
+                                    <th style="text-align:right;">1:</th>
+                                    <td><b style="color:red;">该功能只有服务号和认证订阅号才能使用。</b></td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;">2:</th>
+                                    <td>先填写微信AppId和微信AppSecret（这个2个值需要到微信公众平台获取）</td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;">3:</th>
+                                    <td>按钮数最多只能创建3个，子按钮数最多创建5个，否则创建失败!</td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;">4:</th>
+                                    <td>关键词需于《关键词自动回复》里的关键词对应,KEY值用字母或数字组成</td>
+                                </tr>
+
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>微信AppId：</th>
+                                    <td><input type="text" style="width:260px;" class="text width_normal" name="appid" value="eeee"><a style="color:#85c401" target="_blank" href="/mall/help/help100.jpg">什么是AppId</a></td>
+                                </tr>
+                                 <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>微信AppSecret：</th>
+                                    <td><input type="text" style="width:260px;" class="text width_normal" name="appsecret" value="eeeee"><a style="color:#85c401" target="_blank" href="/mall/help/help100.jpg">什么是AppSecret</a></td>
+                                </tr>
+ 
+                                    <tr><th></th>
+                                    <td style="text-align:center;"><input type="submit" class="btn" value="保存修改" style="margin-top:20px;"></td>
+                                </tr>
+                        </tbody></table>    
+                            <div class="clear"></div>
+                            <div class="wrap" style=" margin-top:50px">
+                                <div class="eject_btn_two eject_pos3" title="gcategory_add" style="left:20px;right:0;"><b class="ico3" ectype="dialog" style="color:#FFFFFF;" dialog_title="gcategory_add" dialog_id="my_category_add" dialog_width="480" uri="index.php?app=custom_menu&amp;act=add">新增分类</b></div>
+                                 <!--<div class="information eject_pos3"  style="left:190px;right:0;width:120px;"><div class="info"><a target="_blank" href="index.php?app=custom_menu&act=yulan"><input type="button" class="btn" value="效果预览" /></a></div></div>-->
+                                 <!--<div class="information eject_pos3"  style="left:345px;right:0;width:120px;"><div class="info"><a target="_blank" href="/themes/mall/new/styles/default/images/menus.jpg"><input type="button" class="btn" value="自定义菜单示例图" /></a></div></div>-->
+                            <div class="public table" style=" padding:30px 0;">
+                                <table id="my_category" server="http://localhost:808/mall/index.php?app=custom_menu&amp;act=ajax_col">
+                                                                                                                                     <tbody><tr class="line_bold">
+                                        <th class="width1"></th>
+                                        <th class="align1" colspan="4">
+                                           
+                                        </th>
+                                    </tr>
+                                    <tr class="gray" ectype="table_header">
+                                        <th></th>
+                                        <th class="align1" coltype="editable" column="cate_name" checker="check_required" inputwidth="50%">分类名称</th>
+                                        <th class="width15" style="width:40px; text-align:center;" coltype="editable" column="sort_order" checker="check_max" inputwidth="30px">排序</th>
+                                        <th class="width15" style="width:40px; text-align:center;" coltype="switchable" column="if_show" checker="" onclass="right_ico" offclass="wrong_ico">显示</th>
+                                        <th class="width3">操作</th>
+                                    </tr>
+                                                                                                                               
+                                </tbody></table>
+                            </div>         
+                                <div class="information">
+                                        <div class="info individual">
+                                            <table>
+                
+                                                 <tbody><tr>
+                                                    <td>
+                                                    <a href="index.php?app=custom_menu&amp;act=creat_menu" onclick="return confirm('是否生成自定义菜单？');"><input type="button" class="btn" value="生成菜单"></a>
+                                                    <a href="index.php?app=custom_menu&amp;act=delete_menu" onclick="return confirm('是否删除已有的自定义菜单？');"><input type="button" class="btn" value="删除自定义菜单" style="margin-left:20px;"></a>
+                                                    
+                                                    
+                                                    </td>
+                                                </tr>
+                                                 <tr>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color:#f00;">(如果菜单无法生成，或点击没反应，请换火狐，谷歌Chrome浏览器，360浏览器极速模式) </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="color:#f00;">注：若有修改信息请重新生成菜单</td>
+                                                </tr>
+                                        </tbody></table>    
+                                        </div>
+                                    </div>   
+                            <div class="wrap_bottom"></div>
+                             </div>
+                        </div>
+                        <div class="indivr">
+                            <div class="phone">
+                                <div class="diy_menu">
+                                    <ul>
+                                        <li> 
+                                            <a href="javascript:;"><img src="http://localhost:808/mall/themes/mall/new/styles/default/images/jianpan.jpg" height="30" width="32"></a>
+                                        </li>
+                                                                               
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                <div class="wrap_bottom"></div>
+            </div>
+  
+        </div>
+        
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- Use IE7 mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7 charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="" />
+<meta name="generator" content="" />
+<meta name="copyright" content="" />
+<link href="__PUBLIC__/home/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/home/js/jquery.js" charset="utf-8"></script>
+
+</head>
+<body>
+<div  class="header">
+    <div class="auto">
+    	  <div class="logo"><img src="__PUBLIC__/home/images/logo.png"   /></div>
+          <div class="login">
+            <?php if(isset($_SESSION['username'])&&$_SESSION['username']!="")  {?>
+             <form class="login_panel"  >
+                <li class="menu_li">欢迎您！<?php echo $_SESSION['username']; ?></li>
+                <li class="menu_li"><a href="<?php echo U('member/index'); ?>">管理中心</a></li>
+                <li class="menu_li"><a href="<?php echo U('index/logout'); ?>">退出</a></li>
+                
+              </form>
+            <?php }else{ ?>
+              <form class="login_panel" action="{:U('index/login')}" method="post">
+        <!--         <li class="menu_li">用户名：<input type="text" class="l_text" name="username" id="username"></li>
+        <li class="menu_li">密码：<input type="password" class="l_text" name="password" id="password"></li> -->
+                <li class="menu_li"><input type="button" onclick="window.location.href='{:U('login')}';"  value="登录" class="lr_btn"><input onclick="window.location.href='{:U('register')}';" type="button" value="申请入驻" class="lr_btn"></li>
+             </form>
+             <?php } ?>
+          </div>
+    </div>
+<script type="text/javascript">
+  $(function($){
+     /*   $(".lr_btn").click(function(){
+            var username=$("#username").val()
+            var password=$("#password").val()
+            $.ajax({
+               url:"{:U('check_login')}",
+               type:'post',
+               data:'username='+username+'&password='+password,
+               success:function(msg){
+               //alert(msg)
+                if(msg=='null'){
+                  alert("用户名或密码错误")
+                }else{
+                     $(".login_panel").submit()
+                }
+                }
+            })
+        })*/
+  })
+</script>
+</div>

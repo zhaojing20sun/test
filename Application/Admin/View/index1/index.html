@@ -1,0 +1,92 @@
+<include file='Common:head'/>
+    <!-- BEGIN HEADER INNER -->
+   <include file='Common:header'/>
+    <!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+    <include file='Common:sidebar'/>
+   
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+        
+           
+          
+            <div class="page-bar">
+                <ul class="page-breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="index.html">首页</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$selected_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$open_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$active_title}</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row margin-bottom-20">
+                <div class="col-md-12">
+                    <!-- BEGIN BORDERED TABLE PORTLET-->
+                    <div class="portlet  box blue ">
+                      <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-gift"></i>  后台首页
+                            </div>
+                           
+                        </div>
+                        <div class="portlet-body">
+                            <table class="table table-bordered table-hover">
+                            <tbody>
+                            <tr><td>服务器系统:</td><td>
+                             <?php
+                             if(strtolower(substr(PHP_OS, 0, 3)) == 'win'){
+                              echo 'windows';
+                                }else{
+                                     echo 'linux';
+                                      }?></td>
+                            <tr><td>服务器环境:</td><td><?php  echo  $_SERVER['SERVER_SOFTWARE'];?></td>
+                            <tr><td>当前时间:</td><td><?php  echo  date("Y-m-d H:m:s");?></td>
+                            <!-- <tr><td>MYSQL版本:</td><td><?php//  echo  mysql_get_server_info();?></td> -->
+                            <tr><td>网站目录:</td><td><?php  echo   $_SERVER['DOCUMENT_ROOT'];?></td>
+                            <tr><td>使用域名:</td><td><?php  echo $_SERVER['SERVER_NAME'];?></td>
+                            <tr><td>版权所有:</td><td>河南阳夏网络传媒科技有限公司郑州分公司</td>
+                            <tr><td>版本:</td><td>1.0V</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END BORDERED TABLE PORTLET-->
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <!-- END CONTENT -->
+  
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<include file='Common:footer'/>
+
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

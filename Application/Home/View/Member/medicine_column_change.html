@@ -1,0 +1,24 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+   <form role="form" action="{:U('medicine_column_change_save')}" name="adminadd"  method="post" enctype="multipart/form-data">
+                                <div class="form-body" style="margin-left:2%">
+                               <!--  <div class="zc01 red" style="color:red; top:35px;">*注意：此指纹(Token) / AppId / AppSecret 必须与微信公众号后台一致,否则无法通信!</div> -->
+                               <input type="hidden" name="id" value="{$show.id}">
+                                    <div class="form-group">
+                                        <label><i style="color:red;"></i> 分类标题：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="title" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('分类标题不能为空')" oninput="setCustomValidity('')"  value="{$show.title}"/>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                                <div class="form-actions" style="padding-left:5%;margin-top:10px;">
+                                  <input type="submit" class="btn" value="保  存" style="width:60px">    
+                                    
+                                </div>
+                            </form>
+</div></div>
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

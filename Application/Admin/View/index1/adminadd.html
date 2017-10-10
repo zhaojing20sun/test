@@ -1,0 +1,191 @@
+ <include file='Common:head'/>
+    <!-- BEGIN HEADER INNER -->
+   <include file='Common:header'/>
+    <!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+   <include file='Common:sidebar'/>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+       <div class="page-content">
+         
+            <!-- BEGIN PAGE HEADER-->
+            <div class="page-bar">
+                <ul class="page-breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="index.html">首页</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$selected_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$open_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$active_title}</a>
+                    </li>
+                </ul>
+              
+            </div>
+            <!-- END PAGE HEADER-->
+<style type="text/css">
+    .checker,.power{display: inline-block;}
+    .power{margin-left: 1%;}
+
+</style>
+  
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row">
+                <div class="col-md-12 ">
+                    <!-- BEGIN SAMPLE FORM PORTLET-->
+                    <div class="portlet box blue">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-gift"></i>  添加代理
+                            </div>
+                           
+                        </div>
+                        <div class="portlet-body form">
+                            <form role="form" action="{:U('adminsave')}" name="adminadd"  method="post">
+                                <div class="form-body">
+                                 <div class="form-group">
+                                        <label>昵称</label>
+                                        <div class="input-group">
+                                         <input type="text" class="form-control" placeholder="昵称" name="nickname" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>登录用户名</label>
+                                        <div class="input-group">
+                                         <input type="text" id="username" class="form-control" placeholder="登录用户名" name="username" >
+
+                                        </div>
+                                    </div>
+                                   
+                                     <div class="form-group">
+                                        <label>登录密码</label>
+                                        <div class="input-group">
+                                         <input type="password" class="form-control" placeholder="登录密码" name="password" >
+                                        </div>
+                                    </div>
+
+                                      <div class="form-group">
+                                        <label>代理等级</label>
+                                        <div class="input-group">
+                                         <select name="permission">
+                                           <option value="1">区域代理</option>
+                                           <option value="2">个人代理</option>
+                                         </select>
+                                        </div>
+                                    </div>
+
+                                   <div class="form-group">
+                                       <span> 权限分配: </span>
+                                      
+
+                                  <span  class="power"><input type="checkbox" name="power[0]" value="1">  代理商信息管理</span> 
+                                  <span  class="power"><input type="checkbox" name="power[1]" value="1">  钻石管理</span>  
+                                  <span  class="power"><input type="checkbox" name="power[2]" value="1">  活动管理</span>  
+                                  <span  class="power"><input type="checkbox" name="power[3]" value="1">  分销管理</span>  
+                                  <span  class="power"><input type="checkbox" name="power[4]" value="1">  帮助管理</span>   
+
+                                        
+                                    </div>
+                                     <div class="form-group">
+                                        <label>代理区域</label>
+                                        <div class="input-group">
+                                         <input type="text" class="form-control" placeholder="代理区域" name="address" value="{$admin.address}">
+                                        </div>
+                                    </div>
+                                     
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn red">   添   加   </button>
+                                     <a href="javascript:history.back(-1)" class="btn default"> 返 回 </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- END SAMPLE FORM PORTLET-->
+                
+                </div>
+            
+            </div>
+         
+            <!-- END PAGE CONTENT-->
+        </div>
+    </div>
+    <!-- END CONTENT -->
+  
+</div>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<include file='Common:footer'/>
+
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="__PUBLIC__/assets/global/plugins/respond.min.js"></script>
+<script src="__PUBLIC__/assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="__PUBLIC__/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="__PUBLIC__/assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<script src="__PUBLIC__/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="__PUBLIC__/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script type="text/javascript" src='__PUBLIC__/assets/global/scripts/jquery-validate.js'></script>
+<script type="text/javascript" src='__PUBLIC__/assets/admin/layout/scripts/adminadd.js'></script>
+<script>
+    jQuery(document).ready(function() {
+       Metronic.init(); // init metronic core components
+Layout.init(); // init current layout
+QuickSidebar.init(); // init quick sidebar
+Demo.init(); // init demo features
+    });
+  </script>
+<!-- END JAVASCRIPTS -->
+<script type="text/javascript">
+    $(function(){
+        $("#username").change(function(){
+           var username=$(this).val()
+            $.ajax({
+                 url:"{:U('check_adminusername')}",
+                 type:"post",
+                 data:"username="+username,
+                 success:function(msg){
+                  if(msg=='1'){
+                     $("#username").after("<span class='error cunzai'>该用户名已存在</span>")
+                  }else{
+                     $(".cunzai").remove()
+                  }
+                 }
+            })
+        })
+    })
+
+</script>
+</body>
+<!-- END BODY -->
+</html>

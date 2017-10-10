@@ -1,0 +1,162 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+.fl{
+	float: left;
+}
+  a:link { 
+ 
+text-decoration: none; 
+} 
+a:visited { 
+
+text-decoration: none; 
+} 
+a:hover { 
+ 
+text-decoration: none; 
+} 
+.margin-top-8{
+	margin-top: 8px;
+}
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background: url(../images/nav_bg.png) -50px center no-repeat;
+	position: relative;
+}
+
+.nav-container .back{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 20px;
+	bottom: 13px;
+	background: url(../images/icon/back.png) left center no-repeat;
+	text-indent: -9999px;
+}
+
+.nav-container h3{
+	display: inline-block;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 24px;
+}
+
+.nav-container .save{
+	position: absolute;
+	right: 20px;
+	bottom: 13px;
+	display: inline-block;
+	width: 34px;
+	height: 18px;
+	color: #fff;
+	font-style: normal;
+}
+
+/*设置*/
+.options{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+
+.options h4{
+	display: inline-block;
+	line-height: 50px;
+	color: #584f60;
+	font-family: "Microsoft YaHei";
+}
+
+.options .touxiang{
+	width: 30px;
+	height: 30px;
+	background: #584f60;
+	float: right;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+
+.options .touxiang img{
+	border-radius: 50%;
+}
+
+.options .nickname{
+	float: right;
+}
+
+#sex span{
+	float: right;
+	color: #ccc;
+}
+
+#sex .selected{
+	color: #000;
+}
+
+.options #man{
+	margin-right: 8px;
+}
+
+.spacing{
+	height: 16px;
+	background: #e5e5e5;
+}
+
+.form-control{
+	border: none;
+	resize: none;
+}
+
+
+#picktime{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+}
+
+.city{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

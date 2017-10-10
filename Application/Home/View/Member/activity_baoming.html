@@ -1,0 +1,131 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<style type="text/css">
+  .button{background: #42c1f3;
+    border: 1px solid #42c1f3;
+    font-size: 12px;    padding: 6px 10px;color: white}
+</style>
+<div id="right">
+
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>姓名</th><th>电话</th><th>报名时间</th> <php>if($_GET['type']==2){</php><th>留言</th>
+                          
+                           <th>审核</th>
+                          <th>投票数</th>
+                            <php>}</php>
+                             <th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         
+                                <td style="vertical-align:middle;">{$v.name}</td>
+                                
+                                <td style="vertical-align:middle;">{$v.tel}</td>
+                               <td style="vertical-align:middle;">{$v.addtime|date='Y-m-d H:i:s',###}</td>
+                                 <php>if($_GET['type']==2){</php>
+                                  <td style="vertical-align:middle;max-width:100px;"><span title="{$v.content}">{$v.content}</span></td>
+                           
+                           
+                           
+                              <td style="vertical-align:middle;" class="{$v.id}">
+                              <?php switch ($v['status']) {
+                                case '0':
+                                  echo "<span class='yes button'>通过</span> | <span class='no button'>不通过</span>";
+                                  break;
+                                  case '1':
+                                  echo "<span style='color:green'>通过</span>";
+                                  break;
+                                  case '2':
+                                  echo "<span style='color:red'>不通过</span>";
+                                  break;
+                              } ?>
+                              </td>
+                               <td style="vertical-align:middle;">{$v.piao}</td>
+                           
+                            <td style="vertical-align:middle;" <?php  $pic=M('weixin_activity_pic')->where(array('aid'=>$v['id']))->select(); if($pic){echo  'rowspan="2"' ;} ?> >
+                           <php>}</php>
+                         <php>if($_GET['type']==1){</php>
+              <td >
+                              <php>}</php>
+                                  <a href="{:U('activity_baoming_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>   
+                            <php>
+                            if($pic){ </php> 
+
+                            <tr>
+                              <td style="vertical-align:middle;">上传图片</td>
+                               <php>if($_GET['type']==2){</php>
+                              <td colspan="5" rowspan="" style="text-align:left">
+                              <php>}elseif($_GET['type']==1){</php>
+              <td colspan="4" style="text-align:left">
+                              <php>}</php>
+                                <foreach name="pic" item="v1">
+            <a href="__APP__{$v1.pic}" target="__blank">
+           <img src="__APP__{$v1.showpic}" style="width:150px;max-height:200px;margin-left:7%;">
+           </a>
+                                </foreach>
+
+                              </td>
+                            </tr>
+                            <php>}</php>              
+                            </foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+ <script type="text/javascript">
+ $(function(){
+  
+  //alert(name)
+     $(".yes").click(function(){
+        var id=$(this).parent().attr('class')
+
+        $.ajax({
+          url:"{:U('baoming_status')}",
+          type:'post',
+          data:"id="+id+"&status=1",
+          success:function(msg){
+             if(msg>0){
+               alert('操作成功')
+              location.reload()
+            }
+            }
+        })
+     })
+     $(".no").click(function(){
+      var content = prompt("简述撤回原因", "")
+   
+      if(content=='' || content==null){
+        alert('撤回原因不能为空')
+       
+      }else{
+         
+          var id=$(this).parent().attr('class')
+        $.ajax({
+          url:"{:U('baoming_status')}",
+          type:'post',
+          data:"id="+id+"&status=2&content="+content,
+          success:function(msg){
+     
+             if(msg>0){
+               alert('操作成功')
+              location.reload()
+            }
+            }
+        })
+      }
+      
+     })
+ })
+ </script>
+ <include file="Common:member_footer"/>

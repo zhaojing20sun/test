@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #fff;
+	padding-top: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+textarea{
+	resize: none;
+}
+
+/*顶部导航*/
+.nav-container{
+	height: 50px;
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+	background: url(../images/nav_bg.png) -50px center no-repeat;
+	position: relative;
+}
+
+.nav-container h3{
+	display: inline-block;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.nav-container i{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	bottom: 16px;
+	text-indent: -9999px;
+}
+
+
+.nav-container ul{
+	display: inline-block;
+	height: 50px;
+}
+
+.nav-container ul li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	color: #fff;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+

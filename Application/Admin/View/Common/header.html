@@ -1,0 +1,80 @@
+<div class="page-header-inner">
+        <!-- BEGIN LOGO -->
+        <div class="page-logo">
+            <a href="index.html">
+            <img src="__PUBLIC__/admin/images/logo.png" alt="logo" class="logo-default"/>
+            </a>
+            <div class="menu-toggler sidebar-toggler">
+            </div>
+        </div>
+        <!-- END LOGO -->
+        <!-- BEGIN HORIZANTAL MENU -->
+        <!-- DOC: Remove "hor-menu-light" class to have a horizontal menu with theme background instead of white background -->
+        <!-- DOC: This is desktop version of the horizontal menu. The mobile version is defined(duplicated) in the responsive menu below along with sidebar menu. So the horizontal menu has 2 seperate versions -->
+        <div class="hor-menu hor-menu-light hidden-sm hidden-xs">
+            <ul class="nav navbar-nav">
+                <!-- DOC: Remove data-hover="megadropdown" and data-close-others="true" attributes below to disable the horizontal opening on mouse hover -->
+                
+                <foreach name='columnlist' item='v'>
+                <li class="classic-menu-dropdown <?php if($selected==$v['_id']) echo 'active'; ?>">
+                    <a href="{:U('column',array('_id' =>$v['_id']))}" >
+                    {$v.title} 
+                    <?php if($selected==$v['_id']) echo '<span class="selected"></span>'; ?>
+                    </a>
+                   
+                </li>
+                  </foreach>
+               
+            </ul>
+        </div>
+        <!-- END HORIZANTAL MENU -->
+      
+        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+        <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+        </a>
+        <!-- END RESPONSIVE MENU TOGGLER -->
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <div class="top-menu" style="margin-right:5%;width:20%">
+            <ul class="nav navbar-nav pull-right" style="width:100%">
+               
+                
+                <!-- BEGIN USER LOGIN DROPDOWN -->
+                <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                <li class="dropdown dropdown-user">
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                    
+                    <span class="username username-hide-on-mobile">
+                    欢迎您，<?php 
+                      switch ($admin10['permission']) {
+                          case '':
+                           echo '<span style="color:red">[总代理]</span>';
+                              break;
+                           case '1':
+                            echo '<span style="color: orange">[区域代理]</span>'; 
+                              break;
+
+                             case '2':
+                            echo '<span style="color:   #87CEEB">[个人代理]</span>'; 
+                              break;
+                      }?>-{$admin10.nickname}
+                    
+                                        </span>
+                   
+                    </a>
+                 
+                </li>
+                
+                <!-- END USER LOGIN DROPDOWN -->
+                <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                <li class="dropdown dropdown-quick-sidebar-toggler" style="float:right;line-height:46px">
+                    <a href="{:U('index/out')}" class="dropdown-toggle" style="">
+                    <i class="icon-logout"></i>
+                   
+                    </a>
+                </li>
+                <!-- END QUICK SIDEBAR TOGGLER -->
+            </ul>
+        </div>
+        <!-- END TOP NAVIGATION MENU -->
+    </div>

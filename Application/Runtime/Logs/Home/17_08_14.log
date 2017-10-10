@@ -1,0 +1,2649 @@
+[ 2017-08-14T08:37:40+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.168010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.168010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.974055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.974055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.024002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036002s ]
+
+[ 2017-08-14T08:37:56+08:00 ] ::1 /new_lgx/Index/check_login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0710s ]
+SQL: SELECT * FROM `wx_member` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T08:37:56+08:00 ] ::1 /new_lgx/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_member` WHERE `username` = 'admin' AND `password` = '123456' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-14T08:37:56+08:00 ] ::1 /new_lgx/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:37:58+08:00 ] ::1 /new_lgx/member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: member D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\fdc24d97de08be5342dd939702a23904.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.163009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T08:38:07+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:20:13+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:20:24+08:00 ] ::1 /new_lgx/Public/weixin/new_index/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:20:28+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:20:28+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:20:29+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:21:48+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:23:55+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:31:09+08:00 ] ::1 /new_lgx/Member/affiche.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_affiche` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_affiche` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_affiche` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T09:31:12+08:00 ] ::1 /new_lgx/Member/affiche_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: affiche D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\ff25c66dc82f4e51b142b39b2dee1574.php 第 282 行.
+NOTIC: [8] Undefined variable: affiche D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\ff25c66dc82f4e51b142b39b2dee1574.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T09:33:18+08:00 ] ::1 /new_lgx/Member/affiche_add_save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_affiche` [ RunTime:0.0040s ]
+SQL: INSERT INTO `wx_weixin_affiche` (`userid`,`title`,`content`,`addtime`) VALUES ('2','123','123','1502674396') [ RunTime:0.0910s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wx_weixin_man`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_my_notice` [ RunTime:0.0060s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','1') [ RunTime:0.0580s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','2') [ RunTime:0.0580s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','3') [ RunTime:0.0500s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','4') [ RunTime:0.0460s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','5') [ RunTime:0.0700s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','6') [ RunTime:0.0480s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','7') [ RunTime:0.1100s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','8') [ RunTime:0.0990s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','9') [ RunTime:0.0500s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','10') [ RunTime:0.0580s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','11') [ RunTime:0.0500s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','12') [ RunTime:0.0500s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','13') [ RunTime:0.0480s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','14') [ RunTime:0.0670s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','15') [ RunTime:0.0580s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674397','123','123','16') [ RunTime:0.0500s ]
+SQL: INSERT INTO `wx_weixin_my_notice` (`type`,`addtime`,`title`,`content`,`wid`) VALUES ('1','1502674398','123','123','17') [ RunTime:0.0510s ]
+
+[ 2017-08-14T09:33:18+08:00 ] ::1 /new_lgx/Member/affiche.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_affiche` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_affiche` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_affiche` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T09:47:54+08:00 ] ::1 /new_lgx/Public/weixin/new_index/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:47:55+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T09:47:55+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:10+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:10+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:10+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:17+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:48:17+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:17+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:48:20+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:20+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:20+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:52+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:53+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T09:48:53+08:00 ] ::1 /new_lgx/Public/common/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:53+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-14T09:48:54+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:54+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:54+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:54+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:48:54+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:49:14+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/swiper-3.4.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:49:14+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/jquery.mobile.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:49:14+08:00 ] ::1 /new_lgx/Public/weixin/new_faxian/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T09:49:15+08:00 ] ::1 /new_lgx/Public/weixin/new_index/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T16:10:14+08:00 ] ::1 /new_lgx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-08-14T17:23:54+08:00 ] ::1 /new_lgx/Member/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: com D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\87683c6082196f59a63cffe4d2bfaebf.php 第 285 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-14T17:23:57+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:23:58+08:00 ] ::1 /new_lgx/Member/activity_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:32:21+08:00 ] ::1 /new_lgx/Member/activity_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:32:41+08:00 ] ::1 /new_lgx/Member/activity_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:32:52+08:00 ] ::1 /new_lgx/Member/activity_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T17:33:00+08:00 ] ::1 /new_lgx/Member/activity_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3477 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:49:45+08:00 ] ::1 /new_lgx/Public/weixin/new_index/js/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T17:50:00+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:50:02+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 1  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 9  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:51:56+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 9  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:52:20+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 9  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:13+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 308 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:20+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 308 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 308 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:34+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:39+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:41+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:53:50+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:54:00+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:54:09+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:54:25+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T17:54:53+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:55:08+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:55:12+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:56:00+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:56:12+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:56:19+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-14T17:56:23+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:56:50+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:56:54+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:56:58+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:57:03+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:06+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:19+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:19+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:22+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:26+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:32+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:57:39+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:58:23+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:58:24+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:58:30+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:58:46+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:58:54+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:59:01+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:59:06+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T17:59:17+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T17:59:22+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-14T18:00:19+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:00:22+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:26+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:29+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:33+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:36+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:37+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:38+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:03:41+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:05:25+08:00 ] ::1 /new_lgx/Public/weixin/new_huodong/css/toupiao2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-08-14T18:06:22+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:06:24+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:06:25+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:06:37+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-14T18:06:39+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-14T18:06:52+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:06:57+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:07:19+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:07:36+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:07:48+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:07:51+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:07:53+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:07:57+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:07:59+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:08:01+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:08:02+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:10:12+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 1 LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+NOTIC: [8] Undefined variable: pic D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Home\f7f9eb4a35a3f5b910698a2075602fff.php 第 311 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:10:13+08:00 ] ::1 /new_lgx/Member/activity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity` WHERE `userid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-14T18:10:15+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-14T18:10:24+08:00 ] ::1 /new_lgx/Member/baoming_status.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0020s ]
+SQL: UPDATE `wx_weixin_activity_baoming` SET `status`='1' WHERE `id` = 5 [ RunTime:0.0770s ]
+
+[ 2017-08-14T18:10:26+08:00 ] ::1 /new_lgx/Member/activity_baoming/id/2/type/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\MemberController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\new_lgx\Application\Home\Controller\MemberController.class.php 第 3478 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_baoming` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_baoming` WHERE `aid` = 2 LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity_pic` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 6  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 7  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_activity_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

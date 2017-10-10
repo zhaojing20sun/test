@@ -1,0 +1,20 @@
+i {display:block;}
+
+i.icon-notice {width:.36rem;height:.36rem;background-image:url(../images/icon_notice.png);background-size:.36rem .36rem;}
+
+i.icon-drop-down {width:.33rem;height:.18rem;background-image:url(../images/icon_drop_down.png);background-size:.33rem .18rem;}
+
+i.icon-upload {width:.48rem;height:.48rem;background-image:url(../images/upload_file.png);background-size:.48rem .48rem;}
+
+i.icon-close {width:.4rem;height:.4rem;background-image:url(../images/tips_close.png);background-size:.4rem .4rem;}
+
+i.icon-success {width:1.08rem;height:1.08rem;background-image:url(../images/success.png);background-size:1.08rem 1.08rem;}
+
+i.icon-close-1 {width:.76rem;height:.76rem;background-image:url(../images/close_1.png);background-size:.76rem .76rem;}
+
+i.icon-draw {width:100%;height:2.56rem;background-image:url(../images/draw_money_bg.png);background-size:100% 2.56rem;}
+
+i.icon-bg {width:7.5rem;height:7.23rem;background-image:url(../images/ng.jpg);background-size:7.5rem 7.23rem;}
+
+i.icon-circle {width:4.91rem;height:4.91rem;background-image:url(../images/circle.png);background-size:4.91rem 4.91rem;}
+

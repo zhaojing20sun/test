@@ -1,0 +1,145 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<div id="right">
+            <ul class="tab">
+                                    <li class="active"><a href="javascript:;" id="userinfo">基本信息</a></li>
+                                                    <li class="normal"><a href="javascript:;" id="password">修改密码</a></li>
+                                                    <li class="normal"><a href="javascript:;" id="email">修改电子邮箱</a></li>
+                                </ul>          
+                                  <div class="wrap">
+                <div class="public">
+                <form method="post" enctype="multipart/form-data" id="profile_form">
+                    <div class="information">
+                                                <div class="photo width13">
+                            <p><img src="__PUBLIC__/home/images/default_user_portrait.gif" width="120" height="120" alt="" ectype="avatar"></p>
+                            <b>
+                                <span class="file1"><input type="file" size="1" maxlength="0" hidefocus="true" ectype="change_avatar" name="portrait1"></span>
+                                <span class="file2"><input type="file" size="1" maxlength="0" hidefocus="true" ectype="change_avatar" name="portrait2"></span>
+                                <div class="txt">更换头像</div>
+                            </b>
+                        </div>
+                                                <div class="info individual">
+                            <table>
+                                <tbody><tr>
+                                    <th class="width4">用户名: </th>
+                                    <td>{$member.username}</td>
+                                </tr>
+                                <tr>
+                                    <th>电子邮箱:</th>
+                                    <td><input type="text" class="text width_normal" name="real_name" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>真实姓名:</th>
+                                    <td><input type="text" class="text width_normal" name="real_name" value=""></td>
+                                </tr>
+                                <tr>
+                                    <th>性别: </th>
+                                    <td class="label">
+                                        
+                                            <label>
+                                            <input type="radio" name="gender" value="1" checked="checked">男   </label>
+                                            <label>
+                                            <input type="radio" name="gender" value="2">女 </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>生日: </th>
+                                    <td>
+                                        <input type="text" class="text width_normal" name="birthday" id="birthday" value="">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>QQ:</th>
+                                    <td> <input type="text" class="text width_normal" name="im_qq" value=""></td>
+                                </tr>
+                                
+                                                                <tr>
+                                    <th></th>
+                                    <td><input type="submit" class="btn" value="保存修改"></td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                <!-- 修改密码 -->
+                <div class="eject_con bgwhite password" style="display:none">
+            <div class="add">
+                <form method="post" id="password_form">
+                        <ul>
+                            <li><h3>您的密码:</h3>
+                                <p><input type="password" class="text width_normal" name="orig_password"></p>
+                            </li>
+                            <li>
+                                <h3>新密码:</h3>
+                                <p><input type="password" class="text width_normal" name="new_password" id="new_password"></p>
+                            </li>
+                            <li>
+                                <h3>确认密码:</h3>
+                                <p><input type="password" class="text width_normal" name="confirm_password"></p>
+                            </li>
+                        </ul>
+                    <div class="submit">
+                        <input class="btn" type="submit" value="提交">
+                    </div>
+                </form>
+            </div>
+        </div>
+          <!-- 修改邮箱 -->
+<div class="eject_con bgwhite email" style="display:none">
+            <div class="add">
+                <form method="post" id="email_form">
+                    <ul>
+                        <li><h3>您的密码:</h3>
+                        <p><input class="text width_normal" type="password" name="orig_password"></p>
+                        </li>
+                        <li><h3>电子邮箱:</h3>
+                        <p><input class="text width_normal" type="text" name="email"></p>
+                        </li>
+                    </ul>
+                    <div class="submit">
+                                    <input class="btn" type="submit" value="提交">
+                    </div>
+                </form>
+            </div>
+        </div>
+                <div class="wrap_bottom"></div>
+            </div>
+   <script type="text/javascript">
+   $(function($){
+   	  $("#password").click(function(){
+   	  	   $(".public").hide()
+   	  	   $("#userinfo").parent().attr('class','normal')
+   	  	   $(".email").hide()
+   	  	   $("#email").parent().attr('class','normal')
+   	  	   $(".password").show()
+   	  	   $(this).parent().attr('class','active')
+   	  })
+   	  $("#email").click(function(){
+   	  	 $(".public").hide()
+   	  	  $("#userinfo").parent().attr('class','normal')
+   	  	   $(".email").show()
+   	  	   $(this).parent().attr('class','active')
+   	  	   $(".password").hide()
+   	  	    $("#password").parent().attr('class','normal')
+   	  })
+   	  $("#userinfo").click(function(){
+   	  	    $(".public").show()
+   	  	     $(this).parent().attr('class','active')
+   	  	   $(".email").hide()
+   	  	      $("#email").parent().attr('class','normal')
+   	  	    $("#password").parent().attr('class','normal')
+   	  	   $(".password").hide()
+   	  })
+   }) 
+ 
+   </script>
+            <div class="clear"></div>
+            <div class="adorn_right1"></div>
+            <div class="adorn_right2"></div>
+            <div class="adorn_right3"></div>
+            <div class="adorn_right4"></div>
+        </div>
+
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

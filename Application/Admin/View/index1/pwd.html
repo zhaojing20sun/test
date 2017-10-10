@@ -1,0 +1,173 @@
+<include file='Common:head'/>
+   <include file='Common:header'/>
+    <!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+    <!-- BEGIN SIDEBAR -->
+   <include file='Common:sidebar'/>
+    <!-- END SIDEBAR -->
+    <!-- BEGIN CONTENT -->
+    <div class="page-content-wrapper">
+        <div class="page-content">
+           
+       <script type="text/javascript" src="__PUBLIC__/common/js/jquery-1.8.3.min.js"></script>   
+            <!-- BEGIN PAGE HEADER-->
+           
+            <div class="page-bar">
+                <ul class="page-breadcrumb">
+                    <li>
+                        <i class="fa fa-home"></i>
+                        <a href="index.html">首页</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                      <li>
+                        <a href="#">{$selected_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$open_title}</a>
+                        <i class="fa fa-angle-right"></i>
+                    </li>
+                    <li>
+                        <a href="#">{$active_title}</a>
+                    </li>
+                </ul>
+               
+            </div>
+            <!-- END PAGE HEADER-->
+            <!-- BEGIN PAGE CONTENT-->
+            <div class="row">
+                <div class="col-md-8 ">
+                    <!-- BEGIN SAMPLE FORM PORTLET-->
+                    <div class="portlet box blue">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                <i class="fa fa-gift"></i>  修改密码
+                            </div>
+                           
+                        </div>
+                        <div class="portlet-body form">
+                            <form role="form" action="{:U('passwordsave')}" name="adminadd"  method="post">
+                                <div class="form-body">
+                                 
+                                    <div class="form-group">
+                                        <label>原始密码</label>
+                                        <div class="input-group">
+                                         <input type="password" class="form-control" required placeholder="原始密码" name="oldpassword" id="oldpassword" >
+                                           <span class='error yuanshi' style="display:none">原始密码错误</span>
+                                        </div>
+                                    </div>
+                                     <div class="form-group">
+                                        <label>新密码</label>
+                                        <div class="input-group">
+                                         <input type="password" class="form-control" required placeholder="新密码" name="newpassword" id="newpassword" >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>确认密码</label>
+                                        <div class="input-group">
+                                         <input type="password" class="form-control" required placeholder="确认密码" name="confirmpassword" id="confirmpassword">
+                                         <span class='error queren' style="display:none">两次输入密码不一致</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn red" id="tijiao">   保 存   </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- END SAMPLE FORM PORTLET-->
+                
+                </div>
+            
+            </div>
+            <!-- END PAGE CONTENT-->
+        </div>
+    </div>
+    <!-- END CONTENT -->
+  
+</div>
+<script type="text/javascript">
+  //oldpassword
+  //newpassword
+  //confirmpassword
+  $(function(){
+  //alert(1)
+  var check=false;
+      $("#oldpassword").change(function(){
+       
+           var oldpassword=$(this).val()
+           $.ajax({
+              url:"{:U('checkpassword')}",
+              type:'post',
+              data:"oldpassword="+oldpassword,
+              success:function(msg){
+             //  alert(msg)
+                     if(msg=='2'){
+                      $(".yuanshi").show()
+                      check=false
+                     }else if(msg=='1'){
+                     $(".yuanshi").hide()
+                     check=true
+                     }
+              }
+           })
+      })
+var check1=false
+    $("#confirmpassword").change(function(){
+         var newpassword=$("#newpassword").val()
+         var confirmpassword=$("#confirmpassword").val()
+         if(newpassword!='' && confirmpassword!=''){
+              if(newpassword==confirmpassword){
+                  check1=true
+              $(".queren").hide()
+              }else{
+                $(".queren").show()
+                check1=false
+              }
+
+              if(check==true && check1==true){
+                $("form").submit()
+              }
+         }else{
+
+         }
+
+    })
+   $("form").submit(function(){
+      if(check==true && check1==true){
+        return true
+      }else{
+        return false
+      }
+   })
+
+
+
+   
+
+  })
+ 
+   
+</script>
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<include file='Common:footer'/>
+
+
+ 
+  
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
+
+
+
+

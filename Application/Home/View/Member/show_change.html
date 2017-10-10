@@ -1,0 +1,92 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+   <form role="form" action="{:U('show_change_save')}" name="adminadd"  method="post" enctype="multipart/form-data">
+                                <div class="form-body" style="margin-left:2%">
+                               <!--  <div class="zc01 red" style="color:red; top:35px;">*注意：此指纹(Token) / AppId / AppSecret 必须与微信公众号后台一致,否则无法通信!</div> -->
+                               <input type="hidden" name="id" value="{$show.id}">
+                                    <div class="form-group">
+                                        <label><i style="color:red;"></i> 标题：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="title" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('标题不能为空')" oninput="setCustomValidity('')"  value="{$show.title}" />
+                                        </div>
+                                    </div>
+                                        <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 所属分类：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                        <select name="pid">
+                                          
+                                          <option value='0'>请选择分类</option>
+                                          <foreach name="column" item="v">
+                                            <option value="{$v.id}" <?php if($v['id']==$show['pid']) echo 'selected'?>>{$v.title}</option>
+                              
+                                          </foreach>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 直播地址：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="url" id="realname" type="text" class="form-control input-xlarge" value="{$show.url}" />
+                                        </div>
+                                    </div>
+                                       <script type="text/javascript">
+                                 $(function(){
+                                    $("#tijiao").click(function(){
+                                           if($("input[name='video']").val()!=''){
+                                              $("input[name='url']").removeAttr('required')
+                                           }
+                                           if($("input[name='url']").val()!=''){
+                                              $("input[name='video']").removeAttr('required')
+                                           }
+                                    })
+                                 })
+                                    </script>
+                                     <php>if($show['video']!=''){ </php>
+                                      <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 当前本地视频：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                        <video src="__APP__/{$show.video}" controls preload="none" width="400" height="320" poster="__APP__/{$show.logo}"></video>
+                                        </div>
+                                    </div>
+                                    <php>}</php>
+
+                                        <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 上传本地视频：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="video" id="realname" type="file" class="form-control input-xlarge" /><span  style="color:red"> (可上传视频最大500M)</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 当前图片：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <img src="__APP__/{$show.logo}" width="150">
+                                        </div>
+                                    </div>
+                                     <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 修改图片：</label>
+                                        <div class="input-group" style="margin-top:10px;margin-left:15px;">
+                                         <input name="logo" id="realname" type="file" class="form-control input-xlarge"  oninvalid="setCustomValidity('图片不能为空')" oninput="setCustomValidity('')"  />
+                                        </div>
+                                    </div>
+                                    
+                                      <div class="form-group" style="margin-top:10px;">
+                                        <label><i style="color:red;"></i> 描述：</label> 
+                                        <div class="input-group" style="margin-top:10px;">
+                                            
+                                              
+                                              <textarea rows="15" cols="60" placeholder="" name="content" id="editor_id">{$show.content}</textarea>
+                                              
+                                              </div>
+                                        </div>
+                                </div>
+                                <div class="form-actions" style="padding-left:20%;padding-top:2%;">
+                                  <input type="submit" id="tijiao" class="btn" value="保  存">    
+                                    
+                                </div>
+                            </form>
+</div></div>
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

@@ -1,0 +1,18 @@
+﻿
+    <!---------底部-------------->
+     
+    <div class="footer">
+        <div class="auto">
+            <p style="margin:5px 0;">
+                关于我们 |
+                联系我们 |
+                收藏本站 |
+                申请入驻 |
+                微信托管 |
+                版权声明           </p>
+            <p>
+                Copyright 2017 . All Rights Reserved       <a href='http://www.miitbeian.gov.cn/' target= _blank >沪ICP备14025507号-1</a>     </p>
+        </div>
+    </div>
+</body>
+</html>

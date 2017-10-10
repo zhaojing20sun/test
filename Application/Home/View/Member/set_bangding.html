@@ -1,0 +1,171 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<div id="right">
+      <h4 style=" font-weight:normal; border-bottom:#eee solid 1px; padding:5px 5px 5px 20px; font-size:16px; height:60px;line-height: 60px; overflow:hidden;" class="remind">请使用360,火狐或者谷歌浏览器，否则部分功能不兼容</h4> 
+            <div class="wrap">
+                <div class="public">
+                <form method="post" action="{:U('wx_bangding_save')}" enctype="multipart/form-data" id="profile_form">
+                    <div class="information">
+                     
+                        <div class="info individual">
+                            <table>
+                              
+                                <tbody>
+                                <tr>
+                                    <input type="hidden" name="userid" value="{$weixin.userid}"/>
+                                    <td colspan="2"><div class="zc01 red" style="color:red; top:35px;">*注意：此指纹(Token) 必须与微信公众号后台一致,否则无法通信!</div></td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>微信原始ID:</th>
+                                    <td><input name="wxid" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('微信原始ID不能为空')" oninput="setCustomValidity('')"  value="{$weixin.wxid}">
+                                   
+                                    <label class="field_notice"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>微信名称:</th>
+                                    <td><input name="wxname" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('微信名称不能为空')" oninput="setCustomValidity('')"  value="{$weixin.wxname}">
+                                
+                                    <label class="field_notice"></label>
+                                    </td>
+                                </tr>
+                         
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font> 指纹(Token):</th>
+                                    <td><input name="token" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('指纹Token不能为空')" oninput="setCustomValidity('')"  value="{$weixin.token}">
+                                   
+                                    </td>
+                                </tr>
+                                       <tr>
+                                    <input type="hidden" name="userid" value="{$weixin.userid}"/>
+                                    <td colspan="2"><div class="zc01 red" style="color:red; top:35px;">*注意：请将下面系统分配的url地址填写到微信公众号的基本配置下URL（服务器地址）中!</div></td>
+                                </tr>
+                                    <tr>
+                             <th style="text-align:right;"><font style="color:red;">*</font>接口URL:</th>
+                             <td style="color:red;"><input name="url" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('接口URL不能为空')" oninput="setCustomValidity('')" readonly value="{$server}{:U('index/bangdingweixin',array('id'=>$_SESSION['uid']))}"/></td>
+                          </tr>
+                                           
+                       <tr>
+                          <td colspan="2"><div class="zc01 red" style="color:red; top:35px;">*注意：以下为 "开发者凭据"，请保持与微信公众后台一致！</div></td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>AppId:</th>
+                                    <td><input name="appid" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('AppId不能为空')" oninput="setCustomValidity('')"  value="{$weixin.appid}">
+                                
+                                    <label class="field_notice"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font>AppSecret:</th>
+                                    <td><input name="appsecret" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('AppSecret不能为空')" oninput="setCustomValidity('')"  value="{$weixin.appsecret}">
+                                
+                                    <label class="field_notice"></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th style="text-align:right;"><font style="color:red;">*</font> EncodingAESKey:</th>
+                                    <td><input name="key" id="realname" type="text" class="form-control input-xlarge" required oninvalid="setCustomValidity('EncodingAESKey不能为空')" oninput="setCustomValidity('')"  value="{$weixin.key}">
+                                
+                                    <label class="field_notice"></label>
+                                    </td>
+                                </tr>
+                              <!--   <tr>
+                                  <th style="text-align:right;"><font style="color:red;">*</font>微信号类型:</th>
+                                  <td>
+                                  <input onclick="zclick(0);" checked="" type="radio" name="wx_type" value="0">&nbsp;订阅号 &nbsp;&nbsp;
+                                  <input onclick="zclick(2);" checked="" type="radio" name="wx_type" value="2">&nbsp;服务号 &nbsp;&nbsp;
+                                  <input onclick="zclick(1);" type="radio" name="wx_type" value="1">&nbsp;微信认证的服务号
+                                  
+                                  </td>
+                              </tr>
+                              <tr id="zfw">
+                                  <th style="text-align:right;">微信认证的服务号<br>授权回调页面域名:</th>
+                                  <td>
+                                      <input type="text" class="text width_normal" value="xxxx.com">
+                                      <a target="_blank" href="/mall/shouquan.jpg" style="color:#85c401">（如何设置网页授权）</a>
+                                  </td>
+                               </tr> -->
+                             <tr>
+                                    <th></th>
+                                    <td><input type="submit" class="btn" value="保存修改"><!-- <input type="botton" class="btn" value="微信接口" onclick="zhelp('dddd');" style="margin-left:20px; text-align:center; line-height:32px;"> --></td>
+                                </tr>
+
+                                 <tr>
+                                    
+                                    <td colspan="2" style="padding-top:5%"><div class="zc01 red" style="color:red; top:35px;">*注意：请确认在微信公众平台开发下的基本配置信息填写无错误，如果提交失败，请点击下面按钮格式化数据，然后重新提交！如提交绑定成功，请不要按此按钮，一经按下，需重新提交基本配置信息！</div></td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <td style="padding-top:2%"><input type="button" class="btn geshi" value="格式化"><!-- <input type="botton" class="btn" value="微信接口" onclick="zhelp('dddd');" style="margin-left:20px; text-align:center; line-height:32px;"> --></td>
+                                </tr>
+                                <script type="text/javascript">
+                                 $(function($){
+                                    $(".geshi").click(function(){
+                                         $.ajax({
+                                            url:"{:U('formatting')}",
+                                            type:'post',
+                                            data:'bangding=1',
+                                            success:function(msg){
+                                                if(msg=='1'){
+                                                    alert('格式化成功！')
+                                                }else{
+                                                    alert('目前为原始数据，快去微信公众平台绑定基本配置吧！')
+                                                }
+                                            }
+                                         })
+                                    })
+                                 }) 
+                                </script>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </form>
+                </div>
+                <div class="wrap_bottom"></div>
+                <div class="alertbox">
+                    <div class="public_index">
+                        <div class="information_index">
+                            <h3 class="title">微信接口绑定步骤
+                                <p style="color:red">（ 第一次绑定微信接口，请一定仔细参照以下步骤 ）</p>
+                            </h3>
+                            <div class="tipsbody">
+                                <div class="tb_con">
+                                    <div class="tb_con_c">
+                                        <ol class="steps_t">
+                                            <li>
+                                                <div style="position:absolute; top:0; left:-10px; height:20px; width:20px; background:#fff;"></div>
+                                                <div class="stepsimg">1</div>
+                                                <div class="stepsa"><a style="width:180px;" class="btn pos3" target="_blank" href="http://jingyan.baidu.com/article/e75057f2b1ecbdebc91a89f3.html"><span class="pic1">微信公众号注册流程</span></a>
+                                                </div>
+                                                <div class="stepstxt">无公众号者请点击查看/ 有公众号者，本步骤可跳过</div>
+                                            </li>
+                                             <li>
+                                                <div style="position:absolute; bottom:0; left:-10px; height:35px; width:20px; background:#fff;"></div>
+                                                <div class="stepsimg">2</div>
+                                                <div class="stepsa"><a style="width:180px;" class="btn pos3" target="_blank" href="https://mp.weixin.qq.com/"><span class="pic3">点击前往公众号平台</span></a></div>
+                                                <div class="stepstxt">微信公众号平台登录网址</div>
+                                            </li>
+                                            <li>
+                                                <div class="stepsimg">3</div>
+                                                <div class="stepsa"><a style="width:180px;" class="btn pos3" href="javascript:zhelp('dddd');"><span class="pic2">基本配置里绑定接口</span></a></div>
+                                                <div class="stepstxt">点击 微信接口按钮，配置接口</div>
+                                            </li>
+                                          
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="clear"></div>
+            <div class="adorn_right1"></div>
+            <div class="adorn_right2"></div>
+            <div class="adorn_right3"></div>
+            <div class="adorn_right4"></div>
+        </div>
+        
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>

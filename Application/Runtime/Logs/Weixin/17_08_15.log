@@ -1,0 +1,1668 @@
+[ 2017-08-15T08:54:00+08:00 ] ::1 /new_lgx/weixin/index/new_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 6  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0220s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T08:54:02+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T08:54:03+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T08:54:06+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 640 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 647 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 670 行.
+NOTIC: [8] Undefined variable: arr D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 674 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_dynamic_nav` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wx_weixin_dynamic_nav`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release` [ RunTime:0.0250s ]
+NOTIC: [8] Undefined variable: limit D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+NOTIC: [8] Undefined variable: group D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 677 行.
+SQL: SELECT * FROM `wx_weixin_release` WHERE `userid` = 2 AND `type` > 0 ORDER BY view desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 243 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 247 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 248 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 249 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 251 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 255 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 269 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 269 行.
+NOTIC: [8] Undefined variable: k D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 283 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 322 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 443 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 42  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0360s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0240s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 24  [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 44  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 45  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 27  [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 48  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 26  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 28  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 29  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 35  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 12  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 30  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 31  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 32  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 16 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 33  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 34  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 36  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 37  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 38  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 41  [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 43  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 46  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 47  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 49  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `aid` = 50  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 448 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 685 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 814 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\0e9543150021452ea69906478989321f.php 第 816 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T08:54:07+08:00 ] ::1 /new_lgx/Weixin/Index/Public/weixin/new_write/images/arclist/0.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T08:54:07+08:00 ] ::1 /new_lgx/Weixin/Index/new_dongtai/id/__ROOT__/Public/weixin/new_write/images/arclist/1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T08:54:07+08:00 ] ::1 /new_lgx/Weixin/Index/Public/weixin/new_write/images/arclist/1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:34:09+08:00 ] ::1 /new_lgx/Weixin/Index/new_index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0150s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_get_contents(http://api.map.baidu.com/location/ip?ak=CiEwAVN72cVAuHLzNRAMjzpY&amp;ip=::1&amp;coor=bd09ll): failed to open stream: ������ӷ���һ��ʱ���û���ȷ�𸴻�ӵ����û�з�Ӧ�����ӳ���ʧ�ܡ�
+ D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Org\Net\weather.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\new_lgx\ThinkPHP\Library\Org\Net\weather.class.php 第 35 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'city' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 56 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 56 行.
+NOTIC: [2] Illegal string offset 'weather' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 57 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 57 行.
+NOTIC: [2] Illegal string offset 'temphigh' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 60 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 60 行.
+NOTIC: [2] Illegal string offset 'templow' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 60 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\ffca99a837e6265156e77c447e1d016a.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:34:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:34:34+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_index/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:35+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:43+08:00 ] ::1 /new_lgx/weixin/index/new_index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:44+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:34:45+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:51+08:00 ] ::1 /new_lgx/Weixin/Index/new_news/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 395 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 399 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `label` = 1 ORDER BY view asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 7  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_article_column` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `id` NOT IN ('19','1','8') ORDER BY addtime desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 137 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 141 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 142 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 162 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 18  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 17  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 16  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 15  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 14  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\dbdc86341676c0ff89b157c9119d7de7.php 第 231 行.
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 13  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 10  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 2  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:54+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/nid/8/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 8 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='22312272' WHERE `id` = 8 [ RunTime:0.0770s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 8 AND `type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 8 AND `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 8 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = 13 AND `id` <> '8' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 109 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_attention` [ RunTime:0.0710s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 110 行.
+SQL: SELECT * FROM `wx_weixin_attention` WHERE `wid` = null AND `aid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:34:57+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0040s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='1' WHERE `id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = null AND `id` <> '' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 283 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:35:02+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='1' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = null AND `id` <> '' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 283 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:35:44+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0270s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='1' WHERE `id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 0 AND `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 0 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = null AND `id` <> '' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: nid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 283 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:35:46+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/nid/8/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 8 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0020s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='22312273' WHERE `id` = 8 [ RunTime:0.0720s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 8 AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 8 AND `type` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 8 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = 13 AND `id` <> '8' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0040s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 109 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_attention` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 110 行.
+SQL: SELECT * FROM `wx_weixin_attention` WHERE `wid` = null AND `aid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 5  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 13 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 50 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:35:48+08:00 ] ::1 /new_lgx/Weixin/Index/new_news_detial/nid/5/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article_message` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_article_message` WHERE `aid` = 5 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT `view` FROM `wx_weixin_article` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_article` SET `view`='8' WHERE `id` = 5 [ RunTime:0.0520s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 430 行.
+SQL: SELECT `like` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 5 AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 431 行.
+SQL: SELECT `xin` FROM `wx_weixin_article_message` WHERE `wid` = null AND `aid` = 5 AND `type` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_article_message` WHERE `aid` = 5 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 AND `column` = 13 AND `id` <> '5' ORDER BY addtime desc LIMIT 4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 8  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 4  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 3  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 284 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 315 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\d1e77cd7cb4429915b368d08e94f7522.php 第 317 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:35:57+08:00 ] ::1 /new_lgx/Weixin/Index/new_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_activity` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wx_weixin_activity` WHERE `userid` = 2 ORDER BY id desc LIMIT 2   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_lunbotu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 2  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 3  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 4  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_lunbotu` WHERE `userid` = 2 AND `page` = 1 AND `type` = 6  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_article` WHERE `userid` = 2 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_release_pic` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 478 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` <> null GROUP BY wid  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+NOTIC: [8] Undefined offset: -1 D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 496 行.
+SQL: SELECT * FROM `wx_weixin_release_pic` WHERE `wid` IN (null,null) GROUP BY wid  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_pic` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 21  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 20  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_pic` WHERE `aid` = 19  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\98c561c497f1db6720e3136cad874fa0.php 第 583 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:35:59+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T17:36:01+08:00 ] ::1 /new_lgx/Weixin/Index/new_tianqi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:36:01+08:00 ] ::1 /new_lgx/Weixin/Index/new_video_list/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video_column` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `wx_weixin_video_column` WHERE `userid` = 2 ORDER BY ordera desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `userid` = 2 ORDER BY ordera desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: num D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 56 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 57 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined index: vid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 58 行.
+NOTIC: [8] Undefined variable: view1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 89 行.
+NOTIC: [8] Undefined variable: view1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 89 行.
+NOTIC: [8] Undefined variable: view1 D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\541b58712185cbbcab9c390caeb4d2f1.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:36:04+08:00 ] ::1 /new_lgx/Weixin/Index/new_video_end/id/2/nid/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `userid` = 2  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video_message` [ RunTime:0.0400s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 972 行.
+SQL: SELECT `like` FROM `wx_weixin_video_message` WHERE `wid` = null AND `aid` = 15 AND `type` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_video_message` WHERE `aid` = 15 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `id` IN ('16','17','18','19')  [ RunTime:0.0000s ]
+SQL: SELECT `view` FROM `wx_weixin_video` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_video` SET `view`='5' WHERE `id` = 15 [ RunTime:0.0680s ]
+SQL: SELECT `view` FROM `wx_weixin_video` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_video_message` WHERE `aid` = 15 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_video_message` WHERE `aid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 86 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 104 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 114 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0030s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0030s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 327 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T17:36:06+08:00 ] ::1 /new_lgx/Weixin/Index/new_video_end/id/2/nid/18.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `userid` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_video_message` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Weixin\Controller\IndexController.class.php 第 972 行.
+SQL: SELECT `like` FROM `wx_weixin_video_message` WHERE `wid` = null AND `aid` = 18 AND `type` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_video_message` WHERE `aid` = 18 AND `type` = 1 ORDER BY addtime asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `id` IN ('15','16','17','19')  [ RunTime:0.0010s ]
+SQL: SELECT `view` FROM `wx_weixin_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wx_weixin_video` SET `view`='21' WHERE `id` = 18 [ RunTime:0.0570s ]
+SQL: SELECT `view` FROM `wx_weixin_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_video_message` WHERE `aid` = 18 AND `type` = 2 AND `like` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_weixin_video_message` WHERE `aid` = 18 AND `type` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_weixin_video` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 86 行.
+NOTIC: [8] Undefined variable: v D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 149 行.
+SQL: SHOW COLUMNS FROM `wx_weixin_man` [ RunTime:0.0050s ]
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wx_weixin_mydata` [ RunTime:0.0050s ]
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 327 行.
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 359 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `headimgurl` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `nickname` FROM `wx_weixin_mydata` WHERE `wid` = null LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: wid D:\xampp\htdocs\new_lgx\Application\Runtime\Cache\Weixin\1669cf00e3a3fc9c056ab7fdb8d49831.php 第 361 行.
+SQL: SELECT `nickname` FROM `wx_weixin_man` WHERE `id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

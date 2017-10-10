@@ -1,0 +1,206 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link href="__PUBLIC__/weixin/new_index/css/swiper-3.4.2.min.css?v1.0" rel="stylesheet">
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<style type="text/css">
+  .green{
+    color: #FFFFFF;
+    background-color: #3F89EC;
+}
+
+.btn1 {
+padding:0;
+    font-size: 13px;
+    height: 27px;
+    width:90px;
+}
+input[name='title'],input[name='nickname'],input[name='content']{height:20px;line-height: 20px;}
+</style>
+<div id="right">
+<div style="margin-top:9px;">
+<!-- <a href="{:U('baoliao_list')}" class="btn btn-primary" style="   margin-top: 10px;">
+            新闻爆料审核</a>
+<a href="{:U('lanmu')}" class="btn btn-primary" style="   margin-top: 10px;">
+            分类管理</a>
+<a href="{:U('article_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            添加文章</a> -->
+             <span style="color:red">动态页地址 http://<?php echo $_SERVER['SERVER_NAME']?>/weixin/index/new_dongtai/id/<?php echo $_SESSION['uid']?>.html</span>
+            </div>
+            <br>
+ <form action="{:U('dongtai')}" method="get"> <input type="text" placeholder="发布人搜索" name="nickname" value="{$Think.get.nickname}" > <input type="text" placeholder="动态关键词或ID搜索" name="title" value="{$Think.get.title}" > <input type="text" placeholder="留言搜索" name="content" value="{$Think.get.content}" >    <button type="submit" class="btn1 green  btn">   搜索   </button>  <button type="button"  class="btn1 green  btn jubao">   举报管理   </button> </form>  
+<php>
+  if($_GET['title']=='' && $_GET['content']==''){
+</php>
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th style="width:25%">发布人</th><th>头像</th><th>动态总数</th><th>最后一次动态</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         
+                                <td style="vertical-align:middle;">
+                                <span title="{$v.title}"><?php 
+                                    
+                                      echo M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname')?M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname'):M('weixin_man')->where(array('id'=>$v['wid']))->getField('nickname');
+                                  
+                                ?></span></td>
+                           <td style="vertical-align:middle;"><img src="<?php echo M('weixin_man')->where(array('id'=>$v['wid']))->getField('headimgurl')?>"  style="width:80px;"/></td>
+                           <td style="vertical-align:middle;"><?php echo M('weixin_release')->where(array('wid'=>$v['wid']))->count() ?></td>
+                            <td style="vertical-align:middle;"><?php $re=M('weixin_release')->where(array('wid'=>$v['wid']))->order('addtime desc')->select(); echo date('Y-m-d H:i:s',$re[0]['addtime']); ?></td>
+                            <td style="vertical-align:middle;"> 
+                            <a href="{:U('dongtai_list',array('wid'=>$v['wid']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 查看所有动态</a>
+                                
+                                  <a href="{:U('dongtai_delete',array('wid'=>$v['wid']))}" class="btn btn-danger  btn-sm" onclick="return confirm('一旦删除，该用户下的所有动态信息都将删除，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+<php>}elseif($_GET['title']){</php>
+
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>动态ID</th><th style="width:6%">发布人</th><th>头像</th><th>文字</th><th style="width:150px;">配图</th><th>发布时间</th><th>浏览量</th><th>评论人数</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         <td style="vertical-align:middle;max-width:150px;">
+                                {$v.id}</td>
+                                   <td style="vertical-align:middle;">
+                                <span title="{$v.title}"><?php 
+                                    
+                                      echo M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname')?M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname'):M('weixin_man')->where(array('id'=>$v['wid']))->getField('nickname');
+                                  
+                                ?></span></td>
+                           <td style="vertical-align:middle;"><img src="<?php echo M('weixin_man')->where(array('id'=>$v['wid']))->getField('headimgurl')?>"  style="width:80px;"/></td>
+                                <td style="vertical-align:middle;max-width:150px;">
+                                <span title="{$v.content}" >{$v.content|htmlspecialchars_decode}</span></td>
+                           <td style="vertical-align:middle;">
+                             <php> $yaowen=M('weixin_release_pic')->where(array('aid'=>$v['id']))->select();
+                             $count11=count($yaowen);
+                                if($yaowen){
+                              </php>  
+                               <php>if($count11>1){ </php>
+                                <div class="swiper-container lunbo2" style="width:150px;height:150px;border-radius:6px;">
+      
+                                    <div class="swiper-wrapper" >
+                                      
+                                     
+                                       <foreach name="yaowen" item="v1" key="k1">
+                                
+                                     <div class="swiper-slide" style="height:150px;">  <a href="__APP__{$v1.pic}" target="__blank">  <img src="__APP__{$v1.pic}" alt="{$k1+1}.jpg" style="width:150px;height:150px;color:#ccc"> </a></div>
+                                    
+                                      
+                                  </foreach>
+                      
+                                    </div>
+                               
+                                   <div class="swiper-pagination"></div> 
+                                  
+                                </div>
+                                 <php>}else{</php>
+                                  <foreach name="yaowen" item="v1" key="k1">
+                                  <a href="__APP__{$v1.pic}" target="__blank">  <img src="__APP__{$v1.pic}" alt="{$k1+1}.jpg" style="width:150px;height:150px;color:#ccc"> </a>
+                                    
+                                      
+                                  </foreach>
+                         <php>}</php>
+                                <php>}else{</php>
+                                无配图
+                                <php>}</php>
+                           </td>
+                            <td style="vertical-align:middle;">{$v.addtime|date='Y-m-d H:i:s',###}</td>
+                           <td style="vertical-align:middle;">
+                             {$v.view}
+                           </td>
+                            <td style="vertical-align:middle;"><?php $pinglun=M('weixin_release_message')->where(array('aid'=>$v['id']))->count();echo $pinglun; ?></td>
+                            <td style="vertical-align:middle;"> 
+                            <a href="{:U('dongtai_message_list',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 查看评论</a>
+                                <br><br>
+                                  <a href="{:U('dongtai_message_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+<php>}elseif($_GET['content']){</php>
+
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>所属动态ID</th><th style="width:6%">发布人</th><th>头像</th><th>内容</th><th>发布时间</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="message" item="v">
+                            <tr>
+                         <td style="vertical-align:middle;max-width:150px;">
+                                {$v.aid}</td>
+                                   <td style="vertical-align:middle;">
+                                <span title="{$v.title}"><?php 
+                                    
+                                      echo M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname')?M('weixin_mydata')->where(array('wid'=>$v['wid']))->getField('nickname'):M('weixin_man')->where(array('id'=>$v['wid']))->getField('nickname');
+                                  
+                                ?></span></td>
+                           <td style="vertical-align:middle;"><img src="<?php echo M('weixin_man')->where(array('id'=>$v['wid']))->getField('headimgurl')?>"  style="width:80px;"/></td>
+                                <td style="vertical-align:middle;max-width:150px;">
+                                <span title="{$v.content}" >{$v.content|htmlspecialchars_decode}</span></td>
+                        
+                            <td style="vertical-align:middle;">{$v.addtime|date='Y-m-d H:i:s',###}</td>
+                           
+                            <td style="vertical-align:middle;"> 
+                           
+                               
+                                  <a href="{:U('release_reply_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('一旦删除，此留言下的回复留言也一并删除，您确定删除吗')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+<php>}</php>
+</div>
+ <!-- div content end --></div>
+ <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="__PUBLIC__/weixin/new_index/js/swiper-3.4.2.min.js"></script>
+    <script>
+  
+    
+            var swiper2 = new Swiper('.lunbo2', {
+        pagination: '.swiper-pagination',
+       loop : true,
+       slidesPerView : 1,
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+       
+        autoplayDisableOnInteraction: false
+    
+        });
+    
+ 
+    </script>
+    <script type="text/javascript">
+ $(function(){
+    $(".jubao").click(function(){
+        location.href="{:U('dongtai_jubao')}"
+    })
+ })
+    </script>
+ <include file="Common:member_footer"/>

@@ -1,0 +1,93 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link href="__PUBLIC__/weixin/new_index/css/swiper-3.4.2.min.css?v1.0" rel="stylesheet">
+<link rel='stylesheet' type="text/css" href="__PUBLIC__/home/css/member_table.css" />
+<div id="right">
+<div style="margin-top:9px;">
+<!-- <a href="{:U('baoliao_list')}" class="btn btn-primary" style="   margin-top: 10px;">
+            新闻爆料审核</a>
+<a href="{:U('lanmu')}" class="btn btn-primary" style="   margin-top: 10px;">
+            分类管理</a>
+<a href="{:U('article_add')}" class="btn btn-primary" style="   margin-top: 10px;">
+            添加文章</a> -->
+             <span style="color:red">动态详情页地址 http://<?php echo $_SERVER['SERVER_NAME']?>/weixin/index/new_release/id/<?php echo $_SESSION['uid']?>/nid/动态ID.html</span>
+            </div>
+
+<table class="table table-bordered table-hover" style="text-align:center;    margin-top: 10px;">
+                            <thead>
+                             <tr><th>动态ID</th><th>文字</th><th style="width:150px;">配图</th><th>发布时间</th><th>浏览量</th><th>评论人数</th><th>操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="com" item="v">
+                            <tr>
+                         <td style="vertical-align:middle;max-width:150px;">
+                                {$v.id}</td>
+                                <td style="vertical-align:middle;max-width:150px;">
+                                <span title="{$v.content}" >{$v.content|htmlspecialchars_decode}</span></td>
+                           <td style="vertical-align:middle;">
+                             <php> $yaowen=M('weixin_release_pic')->where(array('aid'=>$v['id']))->select();
+                                if($yaowen){
+                              </php>  
+                                <div class="swiper-container lunbo2" style="width:150px;height:150px;border-radius:6px;">
+      
+                                    <div class="swiper-wrapper" >
+                                      
+                                      
+                                       <foreach name="yaowen" item="v1" key="k1">
+                                
+                                     <div class="swiper-slide" style="height:150px;">  <a href="__APP__{$v1.pic}" target="__blank">  <img src="__APP__{$v1.pic}" alt="{$k1+1}.jpg" style="width:150px;height:150px;color:#ccc"> </a></div>
+                                    
+                                      
+                                  </foreach>
+
+                                    </div>
+                               
+                                   <div class="swiper-pagination"></div> 
+                                  
+                                </div>
+                                <php>}else{</php>
+                                无配图
+                                <php>}</php>
+                           </td>
+                            <td style="vertical-align:middle;">{$v.addtime|date='Y-m-d H:i:s',###}</td>
+                           <td style="vertical-align:middle;">
+                             {$v.view}
+                           </td>
+                            <td style="vertical-align:middle;"><?php $pinglun=M('weixin_release_message')->where(array('aid'=>$v['id']))->count();echo $pinglun; ?></td>
+                            <td style="vertical-align:middle;"> 
+                            <a href="{:U('dongtai_message_list',array('id'=>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 查看评论</a>
+                                
+                                  <a href="{:U('dongtai_message_delete',array('id'=>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>                  
+</foreach>
+                              </tbody>
+                            <tfoot>
+                             <tr> <th colspan="14" style="text-align:right;">{$page} </th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+
+</div>
+ <!-- div content end --></div>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="__PUBLIC__/weixin/new_index/js/swiper-3.4.2.min.js"></script>
+    <script>
+  
+    
+            var swiper2 = new Swiper('.lunbo2', {
+        pagination: '.swiper-pagination',
+       loop : true,
+       slidesPerView : 1,
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+       
+        autoplayDisableOnInteraction: false
+    
+        });
+    
+ 
+    </script>
+ <include file="Common:member_footer"/>

@@ -1,0 +1,76 @@
+<include file="Common:member_header"/>
+<include file="Common:member_left"/>
+<link href="__PUBLIC__/home/css/member_reply.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.table th, .table td{
+  text-align: center;
+}
+th div{
+  text-align: right;
+}
+.table .btn {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
+    color: #fff;
+    background-color: #daae2b;
+    border-color: #bb9521;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
+    color: #fff;
+    background-color: #f1353d;
+    border-color: #ec111b;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #F3565D;
+    border-color: #f13e46;
+}
+</style>
+<div id="right" style="margin-top:5px;">    
+<a href="{:U('set_guanjian_add')}" class="btn btn-primary">
+            添加关键词</a><br><br>
+       <table class="table table-bordered table-hover" style="text-align:center;">
+                            <thead >
+                             <tr ><th style="vertical-align:middle;text-align:center">关键词</th><th style="vertical-align:middle;text-align:center">回复消息类型</th><th style="vertical-align:middle;text-align:center">是否禁用</th><th style="vertical-align:middle;text-align:center">操作</th></tr>
+                            </thead>
+                            <tbody>
+                            <foreach name="keyword" item='v'>
+                          
+                            <tr>
+                            
+                               <td style="vertical-align:middle;" >{$v.title}</td>
+                              
+                                 <td style="vertical-align:middle;width:300px;"><php>if($v['style']==0){echo '文本消息';}else{
+                                 echo '图文消息';}</php></td>
+                                 
+                                 <td  style="vertical-align:middle;"><php>if($v['passed']==0){echo '是';}else{
+                                 echo '否';}</php></td>
+                                <td style="vertical-align:middle;"> 
+                                 <a href="{:U('set_guanjian_passed',array('id'=>$v['id'],'status'=>$v['passed']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i><php>if($v['passed']==0){echo '启用';}else{
+                                 echo '禁用';}</php></a>
+                                 <a href="{:U('set_guanjian_add',array('id' =>$v['id']))}" class="btn btn-warning  btn-sm"><i class="fa fa-pencil"></i> 修改</a>
+                                  <a href="{:U('set_guanjian_alldelete',array('id' =>$v['id']))}" class="btn btn-danger  btn-sm" onclick="return confirm('您确定要删除该项吗，如不确定请点取消')"><i class="glyphicon glyphicon-remove"></i> 删除</a>
+
+                                </td>
+                            </tr>
+                            
+                            </foreach>
+                            </tbody>
+                            <tfoot>
+                             <tr> <th  colspan="14" style="text-align:right;"> {$page}</th> 
+                              </tr>
+                              </tfoot>
+                            </table>
+  
+        </div>
+        
+ <!-- div content end --></div>
+ <include file="Common:member_footer"/>
